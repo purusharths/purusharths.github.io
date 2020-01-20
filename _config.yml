@@ -1,10 +1,10 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
-description: > # this means to ignore newlines until "show_excerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Pause and Ponder 
+author: Purusharth Saxena 
+email: purusharth.saxena1@gmail.com, purusharth@iitb.ac.in
+#description: > # this means to ignore newlines until "show_excerpts:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -15,8 +15,8 @@ minima:
 
   # generate social links in footer
   social_links:
-    twitter: jekyllrb
-    github:  jekyll
+    twitter: purusharths_ 
+    github:  purusharths
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
@@ -27,7 +27,7 @@ minima:
     # youtube: jekyll
     # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
     # youtube_channel_name: CloudCannon
-    # telegram: jekyll
+    telegram: purusharths
     # googleplus: +jekyll
     # microdotblog: jekyll
     # keybase: jekyll
