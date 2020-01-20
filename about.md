@@ -6,4 +6,9 @@ permalink: /about/
 
 I work on math and computer science (and sometime write about them too). My most recent work is happening at FOSSEE, IIT-B at math.animations.fossee.in. A lot of stuff is being
 developed and vetted internally, and will be up on the website soon.
- 
+
+### Internships
+We do give out internship on math.animations.fossee.in on different subjects. Quite recently, we finished one on Real Analysis and we have once scheduled for Complex Analysis.
+If you want to know more about them, please take a look at the website or drop me an email requesting slack invite.
+
+Also, the fossee fellowship for the summer of 2020 is up. I will be mentoring Mathematics and Python there.
