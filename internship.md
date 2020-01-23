@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Internship
+permalink: /internship/
 ---
 
 I work on math and computer science (and sometime write about them too). My most recent work is happening at FOSSEE, IIT-B at math.animations.fossee.in. A lot of stuff is being
