@@ -4,10 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I work on math and computer science (and sometime write about them too). My most recent work is happening at FOSSEE, IIT-B at math.animations.fossee.in. A lot of stuff is being
-developed and vetted internally, and will be up on the website soon.
+I work on mathematics and computer science. At the moment I am working in IIT-B at the FOSSEE Project. We've start a cool new project called FOSSEE Animations
+and we're creating a library of lecture notes and there animations on math.animations.fossee.in. 
+A lot of stuff is being developed and vetted internally, and will be up on the website soon.
 
-### Internships
-We do give out internship on math.animations.fossee.in on different subjects. Quite recently, we finished one on Real Analysis and we have one scheduled for Complex Analysis.
-If you want to know more about them, please take a look at the website or drop me an email requesting slack invite.
-Also, the registrations for the **fossee summer fellowship**, at Indian Institute of Technology Bombay, has started. I will be looking over _Mathematics and Python_ there.
+#### Internships
+We give out internships on math.animations.fossee.in on various math topics. Quite recently, we finished one on **Real Analysis** and we have one scheduled for Complex Analysis/Mathematical Physics.
+If you want to know more about them, please take a look at the website or drop me an [mail](/contact/) requesting slack invite.
+Also, the registrations for the **FOSSEE Summer Fellowship**, at Indian Institute of Technology Bombay, has started. I will be looking over _Mathematics using Python_ there.
