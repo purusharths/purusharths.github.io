@@ -1,0 +1,23 @@
+I"p<p>I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The initially housekeeping steps were a bit discouraging but once the user and group for <code class="highlighter-rouge">lfs</code> were set up, things became a lot easier (and repetitive).</p>
+
+<p>Most of the time (while <code class="highlighter-rouge">Constructing a Temporary System</code>), I had to use variations of the following command:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir -v build
+cd build
+../configure &lt;tool-specific-flags&gt;
+make -j8 
+make install
+</code></pre></div></div>
+<p>To be fair, a good amount of time went in studying about the config parameters for different tools like GCC, Bash etc.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[UPDATE] This process was especially helpful for me while Packaging @ Fedora
+</code></pre></div></div>
+<p>The process was so repetative that I thought of writing a bash script for it, but as it turns out, folks at <a href="http://www.linuxfromscratch.org/alfs/index.html">linuxfromscratch.org</a> already anticipated this.</p>
+
+<p>Things took an upwards turn from chapter 7 of the LFS book (System Configuration). Everything that followed is captivating at the least. (See takeaway section below)</p>
+
+<p><strong>Tl;dr:</strong> The process was interesting; but tedious at times. configuration options are important. Things get a lot more interesting from Chapter 7 onwards.</p>
+
+<h4 id="my-takeaway-from-the-process-install-arch-first">My Takeaway from the process: install arch first</h4>
+<p>I say this because if you play your cards right, you’d get to pick up the arch installation right from System Configuration section of LFS.
+—
+The whole process took me a couple of days iirc. Thankfully, the spare machine that I recieved was an old i7 ThinkPad while made the whole thing quite enjoyble. If you’re planning on doing it over a VM, then be prepared to leave the system overnight for compilation.</p>
+:ET

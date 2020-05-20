@@ -1,0 +1,22 @@
+I"Æ<p>I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The initially housekeeping steps were a bit discouraging but once the user and group for <code class="highlighter-rouge">lfs</code> were set up, things became a lot easier (and repetitive).</p>
+
+<p>Most of the time (while <code class="highlighter-rouge">Constructing a Temporary System</code>), I had to use variations of the following command:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir -v build
+cd build
+../configure &lt;tool-specific-flags&gt;
+make -j8 
+make install
+</code></pre></div></div>
+<p>To be fair, a good amount of time went in studying about the config parameters for different tools like GCC, Bash etc.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[UPDATE] This process was especially helpful for me while Packaging @ Fedora
+</code></pre></div></div>
+<p>The process was so repetative that I thought of writing a bash script for it, but as it turns out, folks at <a href="http://www.linuxfromscratch.org/alfs/index.html">linuxfromscratch.org</a> already anticipated this.</p>
+
+<p>Things took an upwards turn from chapter 7 of the LFS book (System Configuration).</p>
+
+<p><strong>Tl;dr:</strong> The process was interesting; but tedious at times. configuration options are important. Things</p>
+
+<h3 id="my-takeaway-from-the-process-should-have-installed-arch-first">My Takeaway from the process: should have installed arch first</h3>
+<p>Well
+if you play your cards right, youâ€™d get to pick up from chapter 7 while installing arch</p>
+:ET

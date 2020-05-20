@@ -1,175 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-21T23:58:05+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pause and Ponder</title><author><name>Purusharth Saxena</name></author><entry><title type="html">Animated_math_posts</title><link href="http://localhost:4000/2020/01/23/animated_math_posts.html" rel="alternate" type="text/html" title="Animated_math_posts" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/animated_math_posts</id><content type="html" xml:base="http://localhost:4000/2020/01/23/animated_math_posts.html">&lt;p&gt;Linalg + diffeqn&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Linalg + diffeqn</summary></entry><entry><title type="html">Announcing Internships</title><link href="http://localhost:4000/2020/01/23/announcing-internships.html" rel="alternate" type="text/html" title="Announcing Internships" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/announcing-internships</id><content type="html" xml:base="http://localhost:4000/2020/01/23/announcing-internships.html">&lt;p&gt;voo hoo&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">voo hoo</summary></entry><entry><title type="html">Announcing Math.animations.fossee.in</title><link href="http://localhost:4000/2020/01/23/announcing-math.animations.fossee.in.html" rel="alternate" type="text/html" title="Announcing Math.animations.fossee.in" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/announcing-math.animations.fossee.in</id><content type="html" xml:base="http://localhost:4000/2020/01/23/announcing-math.animations.fossee.in.html">&lt;p&gt;yay!&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">yay!</summary></entry><entry><title type="html">Installing Manim</title><link href="http://localhost:4000/2020/01/23/installing-manim.html" rel="alternate" type="text/html" title="Installing Manim" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/installing-manim</id><content type="html" xml:base="http://localhost:4000/2020/01/23/installing-manim.html">&lt;p&gt;Test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Test</summary></entry><entry><title type="html">Motivation For Math Visual</title><link href="http://localhost:4000/2020/01/23/motivation-for-math-visual.html" rel="alternate" type="text/html" title="Motivation For Math Visual" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/motivation-for-math-visual</id><content type="html" xml:base="http://localhost:4000/2020/01/23/motivation-for-math-visual.html">&lt;p&gt;test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test</summary></entry><entry><title type="html">Using Mayavi</title><link href="http://localhost:4000/2020/01/23/using-mayavi.html" rel="alternate" type="text/html" title="Using Mayavi" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/using-mayavi</id><content type="html" xml:base="http://localhost:4000/2020/01/23/using-mayavi.html">&lt;p&gt;test
-link for prabhu sirs video&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test link for prabhu sirs video</summary></entry><entry><title type="html">Linux from scratch, and what I learned by doing it.</title><link href="http://localhost:4000/misc/2020/01/23/what-i-learned-from-doing-lfs.html" rel="alternate" type="text/html" title="Linux from scratch, and what I learned by doing it." /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/misc/2020/01/23/what-i-learned-from-doing-lfs</id><content type="html" xml:base="http://localhost:4000/misc/2020/01/23/what-i-learned-from-doing-lfs.html">&lt;p&gt;In short, the process was interesting; but tedious.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-20T20:30:49+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pause and Ponder</title><author><name>Purusharth Saxena</name></author><entry><title type="html">The Saga of Asia/Kolkata</title><link href="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html" rel="alternate" type="text/html" title="The Saga of Asia/Kolkata" /><published>2020-05-18T00:00:00+05:30</published><updated>2020-05-18T00:00:00+05:30</updated><id>http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata</id><content type="html" xml:base="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html">&lt;p&gt;Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by &lt;code class=&quot;highlighter-rouge&quot;&gt;Asia/Kolkata&lt;/code&gt;, even after Kolkata lost its status as the most populus or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exist it should go to either BOM, BLR, DEL, HYD, or MAA).&lt;/p&gt;
 
-&lt;h2 id=&quot;should-have-installed-arch-first&quot;&gt;Should Have installed Arch first&lt;/h2&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">In short, the process was interesting; but tedious.</summary></entry><entry><title type="html">My Example Post</title><link href="http://localhost:4000/2016/05/20/my-example-post.html" rel="alternate" type="text/html" title="My Example Post" /><published>2016-05-20T00:00:00+05:30</published><updated>2016-05-20T00:00:00+05:30</updated><id>http://localhost:4000/2016/05/20/my-example-post</id><content type="html" xml:base="http://localhost:4000/2016/05/20/my-example-post.html">&lt;p&gt;Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.&lt;/p&gt;
+&lt;p&gt;And as I looked into it, I found some interesting facts about IST (Full Disclosure: Citation Needed).&lt;/p&gt;
 
-&lt;p&gt;No laudem altera adolescens has, volumus lucilius eum no. Eam ei nulla audiam efficiantur. Suas affert per no, ei tale nibh sea. Sea ne magna harum, in denique scriptorem sea, cetero alienum tibique ei eos. Labores persequeris referrentur eos ei.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.</summary></entry><entry><title type="html">Some articles are just so long they deserve a really long title to see if things will break well</title><link href="http://localhost:4000/misc/2016/05/20/super-long-article.html" rel="alternate" type="text/html" title="Some articles are just so long they deserve a really long title to see if things will break well" /><published>2016-05-20T00:00:00+05:30</published><updated>2016-05-20T00:00:00+05:30</updated><id>http://localhost:4000/misc/2016/05/20/super-long-article</id><content type="html" xml:base="http://localhost:4000/misc/2016/05/20/super-long-article.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</summary></entry><entry><title type="html">This post demonstrates post content styles</title><link href="http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles.html" rel="alternate" type="text/html" title="This post demonstrates post content styles" /><published>2016-05-20T00:00:00+05:30</published><updated>2016-05-20T00:00:00+05:30</updated><id>http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles</id><content type="html" xml:base="http://localhost:4000/junk/2016/05/20/this-post-demonstrates-post-content-styles.html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
-
-&lt;h2 id=&quot;some-great-heading-h2&quot;&gt;Some great heading (h2)&lt;/h2&gt;
-
-&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu.&lt;/p&gt;
-
-&lt;p&gt;Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;h2 id=&quot;another-great-heading-h2&quot;&gt;Another great heading (h2)&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.&lt;/p&gt;
-
-&lt;h3 id=&quot;some-great-subheading-h3&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
-
-&lt;p&gt;Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum.&lt;/p&gt;
-
-&lt;p&gt;Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;
-
-&lt;h3 id=&quot;some-great-subheading-h3-1&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
-
-&lt;p&gt;Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This quote will change your life. It will reveal the secrets of the universe, and all the wonders of humanity. Don’t misuse it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.&lt;/p&gt;
-
-&lt;h3 id=&quot;some-great-subheading-h3-2&quot;&gt;Some great subheading (h3)&lt;/h3&gt;
-
-&lt;p&gt;Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;Hello, World!&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h4 id=&quot;you-might-want-a-sub-subheading-h4&quot;&gt;You might want a sub-subheading (h4)&lt;/h4&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h4 id=&quot;but-its-probably-overkill-h4&quot;&gt;But it’s probably overkill (h4)&lt;/h4&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h5 id=&quot;could-be-a-smaller-sub-heading-pacman-h5&quot;&gt;Could be a smaller sub-heading, &lt;code class=&quot;highlighter-rouge&quot;&gt;pacman&lt;/code&gt; (h5)&lt;/h5&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h6 id=&quot;small-yet-significant-sub-heading--h6&quot;&gt;Small yet significant sub-heading  (h6)&lt;/h6&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;h3 id=&quot;oh-hai-an-unordered-list&quot;&gt;Oh hai, an unordered list!!&lt;/h3&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;First item, yo&lt;/li&gt;
-  &lt;li&gt;Second item, dawg&lt;/li&gt;
-  &lt;li&gt;Third item, what what?!&lt;/li&gt;
-  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;oh-hai-an-ordered-list&quot;&gt;Oh hai, an ordered list!!&lt;/h3&gt;
-
-&lt;p&gt;In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;First item, yo&lt;/li&gt;
-  &lt;li&gt;Second item, dawg&lt;/li&gt;
-  &lt;li&gt;Third item, what what?!&lt;/li&gt;
-  &lt;li&gt;Fourth item, fo sheezy my neezy&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;headings-are-cool-h2&quot;&gt;Headings are cool! (h2)&lt;/h2&gt;
-
-&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;p&gt;Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
-
-&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc.&lt;/p&gt;
-
-&lt;h3 id=&quot;tables&quot;&gt;Tables&lt;/h3&gt;
+&lt;p&gt;Long before IST, there was:&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th&gt;Title 1&lt;/th&gt;
-      &lt;th&gt;Title 2&lt;/th&gt;
-      &lt;th&gt;Title 3&lt;/th&gt;
-      &lt;th&gt;Title 4&lt;/th&gt;
+      &lt;th&gt;Time Zone&lt;/th&gt;
+      &lt;th&gt;Offset&lt;/th&gt;
+      &lt;th&gt;Abandoned in&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td&gt;lorem&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td&gt;Calcutta Time&lt;/td&gt;
+      &lt;td&gt;UTC +5:53&lt;/td&gt;
+      &lt;td&gt;1948&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td&gt;Madras Time&lt;/td&gt;
+      &lt;td&gt;UTC +5:21&lt;/td&gt;
+      &lt;td&gt;-&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td&gt;Bombay Time&lt;/td&gt;
+      &lt;td&gt;UTC +4:51&lt;/td&gt;
+      &lt;td&gt;1955&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Title 1&lt;/th&gt;
-      &lt;th&gt;Title 2&lt;/th&gt;
-      &lt;th&gt;Title 3&lt;/th&gt;
-      &lt;th&gt;Title 4&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet consectetur&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-      &lt;td&gt;lorem&lt;/td&gt;
-      &lt;td&gt;lorem ipsum&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;lorem ipsum dolor&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet&lt;/td&gt;
-      &lt;td&gt;lorem ipsum dolor sit amet consectetur&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>Bart Simpson</name></author><summary type="html">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.</summary></entry></feed>
+&lt;p&gt;Madras Time was also called Railway time of India (since Madras Time lay between Calcutta and Bombay time) and of all the three, it was the closest to the current IST.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-why-asiakolkata&quot;&gt;So, why Asia/Kolkata?&lt;/h3&gt;
+&lt;p&gt;Kolkata (then Calcutta) was the administrative captial of India and one of the most prominant city. The name Asia/Calcutta and later Asia/Kolkata was used since it was the most populous city in the zone at when the timezone was set up [1]. This is no longer true [2].&lt;/p&gt;
+
+&lt;p&gt;Technically, it should &lt;em&gt;have&lt;/em&gt; been changed. Preferebly to &lt;strong&gt;Asia/Mumbai&lt;/strong&gt; The last known conversation on this happened in 2012 and in 2015 [3][4].&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Mayuresh Kathe mayuresh at wolfman.devio.us
+Fri Dec 21 05:23:03 UTC 2012 
+
+may i know the reason why asia/kolkata represents +0530 in india?
+logically, technically and politically speaking, it's incorrect.
+
+~mayuresh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;and&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Sujay Phadke sujay.phadke at gmail.com
+Thu Mar 5 00:08:29 UTC 2015 
+
+
+Could you please add &quot;New Delhi&quot; or &quot;Mumbai&quot; to the +5:30 UTC timezone
+list?
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;So, will the tzinfo be changed for India to Asia/Mumbai? It’s unnecessary and unlikey. There can only be one zone representation for a country, and for all pratical purposes Asia/Kolkata does just that. It’s a representation for the Indian Time Zone.&lt;/p&gt;
+
+&lt;p&gt;But given that Mumbai is the most populus city in India, should it be changed? The last answer on this topic answers the question for good and pretty much seals the fate of &lt;em&gt;Asia/Kolkata&lt;/em&gt; [5]&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Clive D.W. Feather clive at davros.org
+Fri Mar 6 18:23:17 UTC 2015 
+
+...
+...
+
+We don't need two names for the same zone.
+
+I don't think we should make the change just because populations have
+altered. That way lies madness as the most populous place keeps changing.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And anyway, the overhead from legacy systems from chaning the tzinfo might cause an unnecessary overhead.&lt;/p&gt;
+
+&lt;p&gt;PS: &lt;a href=&quot;https://github.com/eggert/tz/blob/master/asia#L1263&quot;&gt;https://github.com/eggert/tz/blob/master/asia#L1263&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;references&quot;&gt;References:&lt;/h3&gt;
+&lt;p&gt;[1] &lt;a href=&quot;https://mm.icann.org/pipermail/tz/2012-December/018487.html&quot;&gt;https://mm.icann.org/pipermail/tz/2012-December/018487.html&lt;/a&gt;&lt;br /&gt;
+[2] &lt;a href=&quot;https://web.archive.org/web/20150630112755/http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3&quot;&gt;http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3&lt;/a&gt; &lt;br /&gt;
+[3] &lt;a href=&quot;https://mm.icann.org/pipermail/tz/2012-December/018482.html&quot;&gt;https://mm.icann.org/pipermail/tz/2012-December/018482.html&lt;/a&gt;&lt;br /&gt;
+[4] &lt;a href=&quot;https://mm.icann.org/pipermail/tz/2015-March/022065.html&quot;&gt;https://mm.icann.org/pipermail/tz/2015-March/022065.html&lt;/a&gt;
+[5] &lt;a href=&quot;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&quot;&gt;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by Asia/Kolkata, even after Kolkata lost its status as the most populus or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exist it should go to either BOM, BLR, DEL, HYD, or MAA).</summary></entry><entry><title type="html">Fedora Packaging</title><link href="http://localhost:4000/2020/02/23/fedora-packaging.html" rel="alternate" type="text/html" title="Fedora Packaging" /><published>2020-02-23T00:00:00+05:30</published><updated>2020-02-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/02/23/fedora-packaging</id><content type="html" xml:base="http://localhost:4000/2020/02/23/fedora-packaging.html">&lt;p&gt;test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test</summary></entry><entry><title type="html">The Corpus Callosum of Differential Equations and Linear Algebra</title><link href="http://localhost:4000/math-notes/2020/02/10/the-corpus-callosum-of-differential-eqns-and-linear-algebra.html" rel="alternate" type="text/html" title="The Corpus Callosum of Differential Equations and Linear Algebra" /><published>2020-02-10T00:00:00+05:30</published><updated>2020-02-10T00:00:00+05:30</updated><id>http://localhost:4000/math-notes/2020/02/10/the-corpus-callosum-of-differential-eqns-and-linear-algebra</id><content type="html" xml:base="http://localhost:4000/math-notes/2020/02/10/the-corpus-callosum-of-differential-eqns-and-linear-algebra.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[UPDATE]
+This post has been shifted to math.animations.fossee.in.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;For more details, check: &lt;a href=&quot;/fossee/2020/02/02/math.animations.fossee.in.html&quot;&gt;FOSSEE Animations Update&lt;/a&gt;&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">[UPDATE] This post has been shifted to math.animations.fossee.in. For more details, check: FOSSEE Animations Update</summary></entry><entry><title type="html">[New Launch] math.animations.fossee.in</title><link href="http://localhost:4000/fossee/2020/02/02/math.animations.fossee.in.html" rel="alternate" type="text/html" title="[New Launch] math.animations.fossee.in" /><published>2020-02-02T00:00:00+05:30</published><updated>2020-02-02T00:00:00+05:30</updated><id>http://localhost:4000/fossee/2020/02/02/math.animations.fossee.in</id><content type="html" xml:base="http://localhost:4000/fossee/2020/02/02/math.animations.fossee.in.html">&lt;h2 id=&quot;update-on-the-fossee-animations-project&quot;&gt;Update on the FOSSEE Animations Project&lt;/h2&gt;
+&lt;p&gt;After receiving feedback from numerous students and profs, we realized that it was about time to change the format for contribution on animations.fossee.in. After much discussion, we started working on the creation of &lt;a href=&quot;http://math.animations.fossee.in&quot;&gt;math.animations.fossee.in&lt;/a&gt;, more on this below:&lt;/p&gt;
+
+&lt;h3 id=&quot;previous-contribution-format-animationsfosseein&quot;&gt;Previous Contribution format [animations.fossee.in]&lt;/h3&gt;
+&lt;p&gt;Earlier the contribution cycle involved the submission of a single animation video/visualization along with the description. The problem with this was that the visualization was the primary focus, and the description was not given due importance. Overall, the mentors had to give repeated feedback, and there had to be multiple revisions for the visualization from the contributor. Seggeregating the contribution was also an issue. All these issues were taken into consideration while desiging the new format&lt;/p&gt;
+
+&lt;h3 id=&quot;new-contribution-format-mathanimationsfosseein&quot;&gt;New Contribution format [&lt;a href=&quot;http://math.animations.fossee.in&quot;&gt;math.animations.fossee.in&lt;/a&gt;]&lt;/h3&gt;
+&lt;p&gt;The new contribution format is based on internships. These &lt;em&gt;remote internships&lt;/em&gt; are in-turn, based on specific topics (for instance Real Analysis, Vector Analysis, and so on). The process is much more streamlined. Every couple of months, we will start an internship for a topic and select 5-10 students based on their responses to the preliminary test questions. And instead of submmitting just a single video, the contributors (read interns) are now expected to submit lecture notes with visualizations being complimetary to the notes. With 10-15sec video it’s easier for the mentor to give feedback and at the same time, it’s easier for the contributor to make changes.&lt;/p&gt;
+
+&lt;p&gt;Once the lecure notes are complete and the mentor agrees with the submission, the notes will be verified by a professor at IIT-B.&lt;/p&gt;
+
+&lt;p&gt;The internships are usually announced over the mailing list or the &lt;strong&gt;slack channel&lt;/strong&gt;. Drop me an email if want the link for the slack channel.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; The FOSSEE Animations website (&lt;a href=&quot;animations.fossee.in&quot;&gt;animations.fossee.in&lt;/a&gt;) will remain as is for the time being but will not take any new contributions.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Update on the FOSSEE Animations Project After receiving feedback from numerous students and profs, we realized that it was about time to change the format for contribution on animations.fossee.in. After much discussion, we started working on the creation of math.animations.fossee.in, more on this below:</summary></entry><entry><title type="html">Animated_math_posts</title><link href="http://localhost:4000/2020/01/23/animated_math_posts.html" rel="alternate" type="text/html" title="Animated_math_posts" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/animated_math_posts</id><content type="html" xml:base="http://localhost:4000/2020/01/23/animated_math_posts.html">&lt;p&gt;Linalg + diffeqn&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Linalg + diffeqn</summary></entry><entry><title type="html">Announcing Internships</title><link href="http://localhost:4000/2020/01/23/announcing-internships.html" rel="alternate" type="text/html" title="Announcing Internships" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/announcing-internships</id><content type="html" xml:base="http://localhost:4000/2020/01/23/announcing-internships.html">&lt;p&gt;voo hoo&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">voo hoo</summary></entry><entry><title type="html">Installing Manim</title><link href="http://localhost:4000/2020/01/23/installing-manim.html" rel="alternate" type="text/html" title="Installing Manim" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/installing-manim</id><content type="html" xml:base="http://localhost:4000/2020/01/23/installing-manim.html">&lt;p&gt;Test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Test</summary></entry><entry><title type="html">Motivation For Math Visual</title><link href="http://localhost:4000/2020/01/23/motivation-for-math-visual.html" rel="alternate" type="text/html" title="Motivation For Math Visual" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/motivation-for-math-visual</id><content type="html" xml:base="http://localhost:4000/2020/01/23/motivation-for-math-visual.html">&lt;p&gt;test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test</summary></entry><entry><title type="html">Using Mayavi</title><link href="http://localhost:4000/2020/01/23/using-mayavi.html" rel="alternate" type="text/html" title="Using Mayavi" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/using-mayavi</id><content type="html" xml:base="http://localhost:4000/2020/01/23/using-mayavi.html">&lt;p&gt;test
+link for prabhu sirs video&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test link for prabhu sirs video</summary></entry><entry><title type="html">Linux from scratch (and what I learnt form it)</title><link href="http://localhost:4000/linux/2020/01/23/what-i-learned-from-doing-lfs.html" rel="alternate" type="text/html" title="Linux from scratch (and what I learnt form it)" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/linux/2020/01/23/what-i-learned-from-doing-lfs</id><content type="html" xml:base="http://localhost:4000/linux/2020/01/23/what-i-learned-from-doing-lfs.html">&lt;p&gt;I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The initially housekeeping steps were a bit discouraging but once the user and group for &lt;code class=&quot;highlighter-rouge&quot;&gt;lfs&lt;/code&gt; were set up, things became a lot easier (and repetitive).&lt;/p&gt;
+
+&lt;p&gt;Most of the time (while &lt;code class=&quot;highlighter-rouge&quot;&gt;Constructing a Temporary System&lt;/code&gt;), I had to use variations of the following command:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir -v build
+cd build
+../configure &amp;lt;tool-specific-flags&amp;gt;
+make -j8 
+make install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;To be fair, a good amount of time went in studying about the config parameters for different tools like GCC, Bash etc.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[UPDATE] This process was especially helpful for me while Packaging @ Fedora
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The process was so repetative that I thought of writing a bash script for it, but as it turns out, folks at &lt;a href=&quot;http://www.linuxfromscratch.org/alfs/index.html&quot;&gt;linuxfromscratch.org&lt;/a&gt; already anticipated this.&lt;/p&gt;
+
+&lt;p&gt;Things took an upwards turn from chapter 7 of the LFS book (System Configuration). Everything that followed is captivating at the least. (See takeaway section below)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tl;dr:&lt;/strong&gt; The process was interesting; but tedious at times. configuration options are important. Things get a lot more interesting from Chapter 7 onwards.&lt;/p&gt;
+
+&lt;h4 id=&quot;my-takeaway-from-the-process-install-arch-first&quot;&gt;My Takeaway from the process: install arch first&lt;/h4&gt;
+&lt;p&gt;I say this because if you play your cards right, you’d get to pick up the arch installation right from System Configuration section of LFS, which – atleast in my views – is the most important section of the entire process.&lt;/p&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;p&gt;The whole process took me a couple of days iirc. Thankfully, the spare machine that I recieved was an old i7 ThinkPad while made the whole thing quite enjoyble. If you’re planning on doing it over a VM, then be prepared to leave the system overnight for compilation.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The initially housekeeping steps were a bit discouraging but once the user and group for lfs were set up, things became a lot easier (and repetitive).</summary></entry></feed>

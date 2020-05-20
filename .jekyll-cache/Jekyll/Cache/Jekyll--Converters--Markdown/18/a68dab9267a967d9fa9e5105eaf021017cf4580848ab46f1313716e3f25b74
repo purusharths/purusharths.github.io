@@ -1,0 +1,43 @@
+I"=<p>Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by <code class="highlighter-rouge">Asia/Kolkata</code>, even after Kolkata lost its status as the most populus or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exist it should go to either BOM, BLR, DEL, HYD, or MAA).</p>
+
+<p>And as I looked into it, I found some interesting facts about IST (Full Disclosure: Citation Needed).</p>
+
+<p>Long before IST, there was:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time Zone</th>
+      <th>Offset</th>
+      <th>Abandoned in</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calcutta Time</td>
+      <td>UTC +5:53</td>
+      <td>1948</td>
+    </tr>
+    <tr>
+      <td>Madras Time</td>
+      <td>UTC +5:21</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Bombay Time</td>
+      <td>UTC +4:51</td>
+      <td>1955</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Madras Time was also called Railway time of India (since Madras Time lay between Calcutta and Bombay time) and of all the three, it was the closest to the current IST.</p>
+
+<h2 id="so-why-asiakolkata">So, why Asia/Kolkata?</h2>
+<p>Kolkata (then Calcutta) was the administrative captial of India and one of the most prominant city. The name Asia/Calcutta and later Asia/Kolkata was used since it was the most populous city in the zone at when the timezone was set up [1]. This is no longer true [2].</p>
+
+<hr />
+<h2 id="references">References:</h2>
+<p>[1]
+[2]</p>
+:ET
