@@ -4,7 +4,7 @@ title: "The Saga of Asia/Kolkata"
 categories: misc
 ---
 
-Apologies for the misleading title, it's not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by `Asia/Kolkata`, even after Kolkata lost its status as the most populus or important city of India (there's no official benchmark for the latter, but with a bold claim we can say that if such a title exist it should go to either BOM, BLR, DEL, HYD, or MAA).
+Apologies for the misleading title, it's not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by `Asia/Kolkata`, even after Kolkata lost its status as the most populous or important city of India (there's no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).
 
 And as I looked into it, I found some interesting facts about IST (Full Disclosure: Citation Needed).
 
@@ -19,9 +19,9 @@ Bombay Time           | UTC +4:51             | 1955     			  |
 Madras Time was also called Railway time of India (since Madras Time lay between Calcutta and Bombay time) and of all the three, it was the closest to the current IST.
 
 ### So, why Asia/Kolkata?
-Kolkata (then Calcutta) was the administrative captial of India and one of the most prominant city. The name Asia/Calcutta and later Asia/Kolkata was used since it was the most populous city in the zone at when the timezone was set up [1]. This is no longer true [2].
+Kolkata (then Calcutta) was the administrative capital of India and one of the most prominent city. The name Asia/Calcutta and later Asia/Kolkata was used since it was the most populous city in the zone at when the timezone was set up [1]. This is no longer true [2].
 
-Technically, it should _have_ been changed. Preferebly to **Asia/Mumbai** The last known conversation on this happened in 2012 and in 2015 [3][4]. 
+Technically, it should _have_ been changed, preferably to **Asia/Mumbai**.ia The last known conversation on this happened in 2012 and in 2015 [3][4]. 
 
 ```
 Mayuresh Kathe mayuresh at wolfman.devio.us
@@ -42,7 +42,7 @@ Could you please add "New Delhi" or "Mumbai" to the +5:30 UTC timezone
 list?
 ```
 
-So, will the tzinfo be changed for India to Asia/Mumbai? It's unnecessary and unlikey. There can only be one zone representation for a country, and for all pratical purposes Asia/Kolkata does just that. It's a representation for the Indian Time Zone.
+So, will the tzinfo be changed for India to Asia/Mumbai? It's unnecessary and unlikely. There can only be one zone representation for a country, and for all pratical purposes Asia/Kolkata does just that. It's a representation for the Indian Time Zone.
 
 But given that Mumbai is the most populus city in India, should it be changed? The last answer on this topic answers the question for good and pretty much seals the fate of *Asia/Kolkata* [5]
 
@@ -59,7 +59,7 @@ I don't think we should make the change just because populations have
 altered. That way lies madness as the most populous place keeps changing.
 ```
 
-And anyway, the overhead from legacy systems from chaning the tzinfo might cause an unnecessary overhead.
+And anyway, the overhead from legacy systems from changing the tzinfo might cause an unnecessary overhead.
 
 
 PS: [https://github.com/eggert/tz/blob/master/asia#L1263](https://github.com/eggert/tz/blob/master/asia#L1263)

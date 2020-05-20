@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-20T20:30:49+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pause and Ponder</title><author><name>Purusharth Saxena</name></author><entry><title type="html">The Saga of Asia/Kolkata</title><link href="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html" rel="alternate" type="text/html" title="The Saga of Asia/Kolkata" /><published>2020-05-18T00:00:00+05:30</published><updated>2020-05-18T00:00:00+05:30</updated><id>http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata</id><content type="html" xml:base="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html">&lt;p&gt;Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by &lt;code class=&quot;highlighter-rouge&quot;&gt;Asia/Kolkata&lt;/code&gt;, even after Kolkata lost its status as the most populus or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exist it should go to either BOM, BLR, DEL, HYD, or MAA).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-20T23:43:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pause and Ponder</title><author><name>Purusharth Saxena</name></author><entry><title type="html">The Saga of Asia/Kolkata</title><link href="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html" rel="alternate" type="text/html" title="The Saga of Asia/Kolkata" /><published>2020-05-18T00:00:00+05:30</published><updated>2020-05-18T00:00:00+05:30</updated><id>http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata</id><content type="html" xml:base="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html">&lt;p&gt;Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by &lt;code class=&quot;highlighter-rouge&quot;&gt;Asia/Kolkata&lt;/code&gt;, even after Kolkata lost its status as the most populous or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).&lt;/p&gt;
 
 &lt;p&gt;And as I looked into it, I found some interesting facts about IST (Full Disclosure: Citation Needed).&lt;/p&gt;
 
@@ -34,9 +34,9 @@
 &lt;p&gt;Madras Time was also called Railway time of India (since Madras Time lay between Calcutta and Bombay time) and of all the three, it was the closest to the current IST.&lt;/p&gt;
 
 &lt;h3 id=&quot;so-why-asiakolkata&quot;&gt;So, why Asia/Kolkata?&lt;/h3&gt;
-&lt;p&gt;Kolkata (then Calcutta) was the administrative captial of India and one of the most prominant city. The name Asia/Calcutta and later Asia/Kolkata was used since it was the most populous city in the zone at when the timezone was set up [1]. This is no longer true [2].&lt;/p&gt;
+&lt;p&gt;Kolkata (then Calcutta) was the administrative capital of India and one of the most prominent city. The name Asia/Calcutta and later Asia/Kolkata was used since it was the most populous city in the zone at when the timezone was set up [1]. This is no longer true [2].&lt;/p&gt;
 
-&lt;p&gt;Technically, it should &lt;em&gt;have&lt;/em&gt; been changed. Preferebly to &lt;strong&gt;Asia/Mumbai&lt;/strong&gt; The last known conversation on this happened in 2012 and in 2015 [3][4].&lt;/p&gt;
+&lt;p&gt;Technically, it should &lt;em&gt;have&lt;/em&gt; been changed, preferably to &lt;strong&gt;Asia/Mumbai&lt;/strong&gt;.ia The last known conversation on this happened in 2012 and in 2015 [3][4].&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Mayuresh Kathe mayuresh at wolfman.devio.us
 Fri Dec 21 05:23:03 UTC 2012 
@@ -55,7 +55,7 @@ Could you please add &quot;New Delhi&quot; or &quot;Mumbai&quot; to the +5:30 UT
 list?
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;So, will the tzinfo be changed for India to Asia/Mumbai? It’s unnecessary and unlikey. There can only be one zone representation for a country, and for all pratical purposes Asia/Kolkata does just that. It’s a representation for the Indian Time Zone.&lt;/p&gt;
+&lt;p&gt;So, will the tzinfo be changed for India to Asia/Mumbai? It’s unnecessary and unlikely. There can only be one zone representation for a country, and for all pratical purposes Asia/Kolkata does just that. It’s a representation for the Indian Time Zone.&lt;/p&gt;
 
 &lt;p&gt;But given that Mumbai is the most populus city in India, should it be changed? The last answer on this topic answers the question for good and pretty much seals the fate of &lt;em&gt;Asia/Kolkata&lt;/em&gt; [5]&lt;/p&gt;
 
@@ -71,7 +71,7 @@ I don't think we should make the change just because populations have
 altered. That way lies madness as the most populous place keeps changing.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;And anyway, the overhead from legacy systems from chaning the tzinfo might cause an unnecessary overhead.&lt;/p&gt;
+&lt;p&gt;And anyway, the overhead from legacy systems from changing the tzinfo might cause an unnecessary overhead.&lt;/p&gt;
 
 &lt;p&gt;PS: &lt;a href=&quot;https://github.com/eggert/tz/blob/master/asia#L1263&quot;&gt;https://github.com/eggert/tz/blob/master/asia#L1263&lt;/a&gt;&lt;/p&gt;
 
@@ -81,7 +81,153 @@ altered. That way lies madness as the most populous place keeps changing.
 [2] &lt;a href=&quot;https://web.archive.org/web/20150630112755/http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3&quot;&gt;http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3&lt;/a&gt; &lt;br /&gt;
 [3] &lt;a href=&quot;https://mm.icann.org/pipermail/tz/2012-December/018482.html&quot;&gt;https://mm.icann.org/pipermail/tz/2012-December/018482.html&lt;/a&gt;&lt;br /&gt;
 [4] &lt;a href=&quot;https://mm.icann.org/pipermail/tz/2015-March/022065.html&quot;&gt;https://mm.icann.org/pipermail/tz/2015-March/022065.html&lt;/a&gt;
-[5] &lt;a href=&quot;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&quot;&gt;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by Asia/Kolkata, even after Kolkata lost its status as the most populus or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exist it should go to either BOM, BLR, DEL, HYD, or MAA).</summary></entry><entry><title type="html">Fedora Packaging</title><link href="http://localhost:4000/2020/02/23/fedora-packaging.html" rel="alternate" type="text/html" title="Fedora Packaging" /><published>2020-02-23T00:00:00+05:30</published><updated>2020-02-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/02/23/fedora-packaging</id><content type="html" xml:base="http://localhost:4000/2020/02/23/fedora-packaging.html">&lt;p&gt;test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test</summary></entry><entry><title type="html">The Corpus Callosum of Differential Equations and Linear Algebra</title><link href="http://localhost:4000/math-notes/2020/02/10/the-corpus-callosum-of-differential-eqns-and-linear-algebra.html" rel="alternate" type="text/html" title="The Corpus Callosum of Differential Equations and Linear Algebra" /><published>2020-02-10T00:00:00+05:30</published><updated>2020-02-10T00:00:00+05:30</updated><id>http://localhost:4000/math-notes/2020/02/10/the-corpus-callosum-of-differential-eqns-and-linear-algebra</id><content type="html" xml:base="http://localhost:4000/math-notes/2020/02/10/the-corpus-callosum-of-differential-eqns-and-linear-algebra.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[UPDATE]
+[5] &lt;a href=&quot;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&quot;&gt;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by Asia/Kolkata, even after Kolkata lost its status as the most populous or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).</summary></entry><entry><title type="html">Open Source Visual Toolkits</title><link href="http://localhost:4000/2020/04/20/open-source-visual-toolkits.html" rel="alternate" type="text/html" title="Open Source Visual Toolkits" /><published>2020-04-20T00:00:00+05:30</published><updated>2020-04-20T00:00:00+05:30</updated><id>http://localhost:4000/2020/04/20/open-source-visual-toolkits</id><content type="html" xml:base="http://localhost:4000/2020/04/20/open-source-visual-toolkits.html"></content><author><name>Purusharth Saxena</name></author><summary type="html"></summary></entry><entry><title type="html">Making RPM packages @ fedoraproject.org</title><link href="http://localhost:4000/misc/2020/02/23/fedora-packaging.html" rel="alternate" type="text/html" title="Making RPM packages @ fedoraproject.org" /><published>2020-02-23T00:00:00+05:30</published><updated>2020-02-23T00:00:00+05:30</updated><id>http://localhost:4000/misc/2020/02/23/fedora-packaging</id><content type="html" xml:base="http://localhost:4000/misc/2020/02/23/fedora-packaging.html">&lt;p&gt;There are great many tutorials out there for packaging. The RPM docs are meticuliously written covering all the details and error logs. I’m using this blogpost as my own personal scratchpad which I can rerfer to whenever needed.&lt;/p&gt;
+
+&lt;h3 id=&quot;cmake-installations&quot;&gt;CMake Installations&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Check in the build logs if the flags set in the CMake file are present in &lt;code class=&quot;highlighter-rouge&quot;&gt;rpm -E %{optflags}&lt;/code&gt;
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions 
+-fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -specs=/usr/lib/rpm/redhat/
+redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;These are the flags that Fedora sets for packages, and &lt;em&gt;only&lt;/em&gt; these must be set&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Check where in the CMakeLists.txt files upstream had hardcoded their flags: &lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags&quot;&gt;Fedora Default Compiler Flags&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;PS: it isn’t forbidden to use other flags, but unless there’s a very good reason to do so, we stick to these. If for some reasons upstream package is not compiling without the hard-coded flags, we’d have to work with upstream to see why removing their flags breaks the compilation; and, if necessary we add them to the default set.
+  However, the default flags are general enough and rarely cause such issues&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;EXAMPLE: For tpcclib upstream used &lt;code class=&quot;highlighter-rouge&quot;&gt;-s&lt;/code&gt;, which strips the binaries. Stripped binaries don’t generate debuginfo&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;To search for the instance where different flags are used, search for general tokens like: &lt;code class=&quot;highlighter-rouge&quot;&gt;FLAGS/CFLAGS/CXXFLAGS&lt;/code&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;CMakeList files are unique for each project. They’ll use &lt;code class=&quot;highlighter-rouge&quot;&gt;cmake&lt;/code&gt; directives, but apart from that they’re like code&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;About “build” tools &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;There are many different “build” tools, &lt;code class=&quot;highlighter-rouge&quot;&gt;configure&lt;/code&gt; is only used for “Autotools”. 
+A &lt;code class=&quot;highlighter-rouge&quot;&gt;CMakeLists.txt&lt;/code&gt; uses the cmake system. Make changes in %build as per the &lt;code class=&quot;highlighter-rouge&quot;&gt;cmake&lt;/code&gt; guideline page&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;When you’re in the build directory, you’ll have to use &lt;code class=&quot;highlighter-rouge&quot;&gt;%cmake ..&lt;/code&gt; Eg:&lt;/p&gt;
+        &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;%install
+pushd build
+  %cmake ..
+  %make_install
+popd build
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Avoid Static Files/library 
+(More on this later)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;All .a files are a static library and are generally avoided: &lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#packaging-static-libraries&quot;&gt;https://docs.fedoraproject.org/en-US/packaging-guidelines/#packaging-static-libraries&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;GCC Issues
+    &lt;ul&gt;
+      &lt;li&gt;Ensure that the compilation flags are compatible with the current version of GCC (use &lt;code class=&quot;highlighter-rouge&quot;&gt;man gcc&lt;/code&gt;)
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://gcc.gnu.org/gcc-10/porting_to.html&quot;&gt;https://gcc.gnu.org/gcc-10/porting_to.html&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://gcc.gnu.org/gcc-10/porting_to.html&quot;&gt;https://gcc.gnu.org/onlinedocs/gcc/Attribute-Syntax.html&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Stay Close to the Upstream
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://fedoraproject.org/wiki/Staying_close_to_upstream_projects&quot;&gt;https://fedoraproject.org/wiki/Staying_close_to_upstream_projects&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;set(CMAKE_INSTALL_PREFIX “${CMAKE_BINARY_DIR}” CACHE PATH “Default install path” FORCE) is present in CMAKELists.txt by default. my path removed the line. So this patch can be removed?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Use &lt;code class=&quot;highlighter-rouge&quot;&gt;git-format-patch&lt;/code&gt; for generating patches
+    &lt;ul&gt;
+      &lt;li&gt;Download the tar.gz from the repo remote&lt;/li&gt;
+      &lt;li&gt;Initialize git repo&lt;/li&gt;
+      &lt;li&gt;Do a &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout -b &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Make changes and commit (DO NOT MERGE TO &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt;)&lt;/li&gt;
+      &lt;li&gt;Switch back to master and;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git format-patch &amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Patch files will be created based on each commit in the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;branch-name&amp;gt;&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Header files not found:
+    &lt;ul&gt;
+      &lt;li&gt;If the build is failing in few of the arches and the buildlog points to &lt;code class=&quot;highlighter-rouge&quot;&gt;*.h - not found&lt;/code&gt; error, then there could be a mis-configuration with the default flags. For instance:
+        &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;-- Looking for include file stdint.h
+-- Looking for include file stdint.h - not found
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;In this case, &lt;code class=&quot;highlighter-rouge&quot;&gt;-msse2&lt;/code&gt; flag is being set on a 32-bit compiler. However, GCC ARM Options suggest otherwise.
+        &lt;blockquote&gt;
+          &lt;p&gt;“For the x86-32 compiler, you must use -march=cpu-type, -msse or -msse2 switches to enable SSE extensions and make this option effective. For the x86-64 compiler, these extensions are enabled by default.”&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/li&gt;
+      &lt;li&gt;That is, &lt;code class=&quot;highlighter-rouge&quot;&gt;-msse2&lt;/code&gt; is &lt;em&gt;not&lt;/em&gt; a valid option for arm: &lt;a href=&quot;https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html&quot;&gt;https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html&lt;/a&gt;.
+  Therefore, when the upstream set -msse2 for &lt;em&gt;all&lt;/em&gt; 32bit systems, they broke the 32bit arm builds&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Issues with path
+ 	* If the  upstream defines LIBPATH to be a relative path: “lib” (&lt;code class=&quot;highlighter-rouge&quot;&gt;DESTINATION ${LIBPATH}&lt;/code&gt;) - for example if they want to install the package locally instead of at the system directories.
+    &lt;ul&gt;
+      &lt;li&gt;If you run &lt;code class=&quot;highlighter-rouge&quot;&gt;rpm -E %cmake&lt;/code&gt;, you’ll see that the macro defines the standard library path for us in LIB_INSTALL_DIR, so simpler to just use that&lt;/li&gt;
+      &lt;li&gt;To apply the fix in all the nested &lt;code class=&quot;highlighter-rouge&quot;&gt;CmakeLists.txt&lt;/code&gt; files use:
+        &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  find . -name &quot;CMakeLists.txt&quot; -exec sed -i 's/LIBPATH/LIB_INSTALL_DIR/g' '{}' \;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+        &lt;p&gt;or&lt;/p&gt;
+        &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  find . -type f -name &quot;CMakeLists.txt&quot; -print0 | xargs -0 sed -i'' -e 's/DESTINATION ${LIBPATH}/DESTINATION ${INCLUDE_INSTALL_DIR}/g'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;        &lt;/div&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;devel-files&quot;&gt;Devel Files&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;More on these later&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;tools-used&quot;&gt;Tools used&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Koji&lt;/li&gt;
+  &lt;li&gt;rpmbuild&lt;/li&gt;
+  &lt;li&gt;fedora-review&lt;/li&gt;
+  &lt;li&gt;mock&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package&quot;&gt;https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html&quot;&gt;http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses&quot;&gt;https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/&quot;&gt;https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/&quot;&gt;https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://rpm.org/user_doc/autosetup.html&quot;&gt;https://rpm.org/user_doc/autosetup.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html&quot;&gt;https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://fedoraproject.org/wiki/Join_the_package_collection_maintainers&quot;&gt;https://fedoraproject.org/wiki/Join_the_package_collection_maintainers&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://apps.fedoraproject.org/packages/&quot;&gt;https://apps.fedoraproject.org/packages/&lt;/a&gt;
+&lt;a href=&quot;http://www.pathname.com/fhs/pub/fhs-2.3.html&quot;&gt;FHS&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://ftp.rpm.org/api/4.4.2.2/config_macros.html&quot;&gt;Config Macros&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#_devel_packages&quot;&gt;Devel Packages&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags&quot;&gt;Compile Flags&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://fedoraproject.org/wiki/Packaging:Debuginfo#Useless_or_incomplete_debuginfo_packages_due_to_packaging_issues&quot;&gt;Useless or incomplete debuginfo packages due to packaging issues&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#_filesystem_layout&quot;&gt;Filesystem Layout&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/&quot;&gt;Versioning&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/#_snapshots&quot;&gt;Snapshots&lt;/a&gt;&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">There are great many tutorials out there for packaging. The RPM docs are meticuliously written covering all the details and error logs. I’m using this blogpost as my own personal scratchpad which I can rerfer to whenever needed.</summary></entry><entry><title type="html">The Corpus Callosum of Differential Equations and Linear Algebra</title><link href="http://localhost:4000/math-notes/2020/02/10/the-corpus-callosum-of-differential-eqns-and-linear-algebra.html" rel="alternate" type="text/html" title="The Corpus Callosum of Differential Equations and Linear Algebra" /><published>2020-02-10T00:00:00+05:30</published><updated>2020-02-10T00:00:00+05:30</updated><id>http://localhost:4000/math-notes/2020/02/10/the-corpus-callosum-of-differential-eqns-and-linear-algebra</id><content type="html" xml:base="http://localhost:4000/math-notes/2020/02/10/the-corpus-callosum-of-differential-eqns-and-linear-algebra.html">&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[UPDATE]
 This post has been shifted to math.animations.fossee.in.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;For more details, check: &lt;a href=&quot;/fossee/2020/02/02/math.animations.fossee.in.html&quot;&gt;FOSSEE Animations Update&lt;/a&gt;&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">[UPDATE] This post has been shifted to math.animations.fossee.in. For more details, check: FOSSEE Animations Update</summary></entry><entry><title type="html">[New Launch] math.animations.fossee.in</title><link href="http://localhost:4000/fossee/2020/02/02/math.animations.fossee.in.html" rel="alternate" type="text/html" title="[New Launch] math.animations.fossee.in" /><published>2020-02-02T00:00:00+05:30</published><updated>2020-02-02T00:00:00+05:30</updated><id>http://localhost:4000/fossee/2020/02/02/math.animations.fossee.in</id><content type="html" xml:base="http://localhost:4000/fossee/2020/02/02/math.animations.fossee.in.html">&lt;h2 id=&quot;update-on-the-fossee-animations-project&quot;&gt;Update on the FOSSEE Animations Project&lt;/h2&gt;
@@ -100,27 +246,4 @@ This post has been shifted to math.animations.fossee.in.
 &lt;hr /&gt;
 
 &lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; The FOSSEE Animations website (&lt;a href=&quot;animations.fossee.in&quot;&gt;animations.fossee.in&lt;/a&gt;) will remain as is for the time being but will not take any new contributions.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Update on the FOSSEE Animations Project After receiving feedback from numerous students and profs, we realized that it was about time to change the format for contribution on animations.fossee.in. After much discussion, we started working on the creation of math.animations.fossee.in, more on this below:</summary></entry><entry><title type="html">Animated_math_posts</title><link href="http://localhost:4000/2020/01/23/animated_math_posts.html" rel="alternate" type="text/html" title="Animated_math_posts" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/animated_math_posts</id><content type="html" xml:base="http://localhost:4000/2020/01/23/animated_math_posts.html">&lt;p&gt;Linalg + diffeqn&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Linalg + diffeqn</summary></entry><entry><title type="html">Announcing Internships</title><link href="http://localhost:4000/2020/01/23/announcing-internships.html" rel="alternate" type="text/html" title="Announcing Internships" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/announcing-internships</id><content type="html" xml:base="http://localhost:4000/2020/01/23/announcing-internships.html">&lt;p&gt;voo hoo&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">voo hoo</summary></entry><entry><title type="html">Installing Manim</title><link href="http://localhost:4000/2020/01/23/installing-manim.html" rel="alternate" type="text/html" title="Installing Manim" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/installing-manim</id><content type="html" xml:base="http://localhost:4000/2020/01/23/installing-manim.html">&lt;p&gt;Test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Test</summary></entry><entry><title type="html">Motivation For Math Visual</title><link href="http://localhost:4000/2020/01/23/motivation-for-math-visual.html" rel="alternate" type="text/html" title="Motivation For Math Visual" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/motivation-for-math-visual</id><content type="html" xml:base="http://localhost:4000/2020/01/23/motivation-for-math-visual.html">&lt;p&gt;test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test</summary></entry><entry><title type="html">Using Mayavi</title><link href="http://localhost:4000/2020/01/23/using-mayavi.html" rel="alternate" type="text/html" title="Using Mayavi" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/using-mayavi</id><content type="html" xml:base="http://localhost:4000/2020/01/23/using-mayavi.html">&lt;p&gt;test
-link for prabhu sirs video&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test link for prabhu sirs video</summary></entry><entry><title type="html">Linux from scratch (and what I learnt form it)</title><link href="http://localhost:4000/linux/2020/01/23/what-i-learned-from-doing-lfs.html" rel="alternate" type="text/html" title="Linux from scratch (and what I learnt form it)" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/linux/2020/01/23/what-i-learned-from-doing-lfs</id><content type="html" xml:base="http://localhost:4000/linux/2020/01/23/what-i-learned-from-doing-lfs.html">&lt;p&gt;I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The initially housekeeping steps were a bit discouraging but once the user and group for &lt;code class=&quot;highlighter-rouge&quot;&gt;lfs&lt;/code&gt; were set up, things became a lot easier (and repetitive).&lt;/p&gt;
-
-&lt;p&gt;Most of the time (while &lt;code class=&quot;highlighter-rouge&quot;&gt;Constructing a Temporary System&lt;/code&gt;), I had to use variations of the following command:&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir -v build
-cd build
-../configure &amp;lt;tool-specific-flags&amp;gt;
-make -j8 
-make install
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;To be fair, a good amount of time went in studying about the config parameters for different tools like GCC, Bash etc.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[UPDATE] This process was especially helpful for me while Packaging @ Fedora
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;The process was so repetative that I thought of writing a bash script for it, but as it turns out, folks at &lt;a href=&quot;http://www.linuxfromscratch.org/alfs/index.html&quot;&gt;linuxfromscratch.org&lt;/a&gt; already anticipated this.&lt;/p&gt;
-
-&lt;p&gt;Things took an upwards turn from chapter 7 of the LFS book (System Configuration). Everything that followed is captivating at the least. (See takeaway section below)&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Tl;dr:&lt;/strong&gt; The process was interesting; but tedious at times. configuration options are important. Things get a lot more interesting from Chapter 7 onwards.&lt;/p&gt;
-
-&lt;h4 id=&quot;my-takeaway-from-the-process-install-arch-first&quot;&gt;My Takeaway from the process: install arch first&lt;/h4&gt;
-&lt;p&gt;I say this because if you play your cards right, you’d get to pick up the arch installation right from System Configuration section of LFS, which – atleast in my views – is the most important section of the entire process.&lt;/p&gt;
-
-&lt;p&gt;–&lt;/p&gt;
-
-&lt;p&gt;The whole process took me a couple of days iirc. Thankfully, the spare machine that I recieved was an old i7 ThinkPad while made the whole thing quite enjoyble. If you’re planning on doing it over a VM, then be prepared to leave the system overnight for compilation.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The initially housekeeping steps were a bit discouraging but once the user and group for lfs were set up, things became a lot easier (and repetitive).</summary></entry></feed>
+link for prabhu sirs video&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test link for prabhu sirs video</summary></entry></feed>

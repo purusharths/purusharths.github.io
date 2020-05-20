@@ -1,0 +1,134 @@
+I"i"<p>There are great many tutorials out there for packaging. The RPM docs are meticuliously written covering all the details and error logs. I’m using this blogpost as my own personal scratchpad which I can rerfer to whenever needed.</p>
+
+<h3 id="cmake-installations">CMake Installations</h3>
+
+<ul>
+  <li>Check in the build logs if the flags set in the CMake file are present in <code class="highlighter-rouge">rpm -E %{optflags}</code>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -fexceptions 
+-fstack-protector-strong -grecord-gcc-switches -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -specs=/usr/lib/rpm/redhat/
+redhat-annobin-cc1 -m64 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection
+</code></pre></div>    </div>
+    <ul>
+      <li>
+        <p>These are the flags that Fedora sets for packages, and <em>only</em> these must be set</p>
+      </li>
+      <li>
+        <p>Check where in the CMakeLists.txt files upstream had hardcoded their flags: <a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags">Fedora Default Compiler Flags</a></p>
+      </li>
+      <li>
+        <p>PS: it isn’t forbidden to use other flags, but unless there’s a very good reason to do so, we stick to these. If for some reasons upstream package is not compiling without the hard-coded flags, we’d have to work with upstream to see why removing their flags breaks the compilation; and, if necessary we add them to the default set.
+  However, the default flags are general enough and rarely cause such issues</p>
+      </li>
+      <li>
+        <p>EXAMPLE: For tpcclib upstream used <code class="highlighter-rouge">-s</code>, which strips the binaries. Stripped binaries don’t generate debuginfo</p>
+      </li>
+      <li>
+        <p>To search for the instance where different flags are used, search for general tokens like: <code class="highlighter-rouge">FLAGS/CFLAGS/CXXFLAGS</code></p>
+      </li>
+      <li>
+        <p>CMakeList files are unique for each project. They’ll use <code class="highlighter-rouge">cmake</code> directives, but apart from that they’re like code</p>
+      </li>
+    </ul>
+  </li>
+  <li>About “build” tools <br />
+    <ul>
+      <li>
+        <p>There are many different “build” tools, <code class="highlighter-rouge">configure</code> is only used for “Autotools”. 
+A <code class="highlighter-rouge">CMakeLists.txt</code> uses the cmake system. Make changes in %build as per the <code class="highlighter-rouge">cmake</code> guideline page</p>
+      </li>
+      <li>
+        <p>When you’re in the build directory, you’ll have to use <code class="highlighter-rouge">%cmake ..</code> Eg:</p>
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>%install
+pushd build
+  %cmake ..
+  %make_install
+popd build
+</code></pre></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Avoid Static Files/library 
+(More on this later)</p>
+
+    <ul>
+      <li>All .a files are a static library and are generally avoided: <a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#packaging-static-libraries">https://docs.fedoraproject.org/en-US/packaging-guidelines/#packaging-static-libraries</a></li>
+    </ul>
+  </li>
+  <li>GCC Issues
+    <ul>
+      <li>Ensure that the compilation flags are compatible with the current version of GCC (use <code class="highlighter-rouge">man gcc</code>)
+        <ul>
+          <li><a href="https://gcc.gnu.org/gcc-10/porting_to.html">https://gcc.gnu.org/gcc-10/porting_to.html</a></li>
+          <li><a href="https://gcc.gnu.org/gcc-10/porting_to.html">https://gcc.gnu.org/onlinedocs/gcc/Attribute-Syntax.html</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Stay Close to the Upstream
+    <ul>
+      <li><a href="https://fedoraproject.org/wiki/Staying_close_to_upstream_projects">https://fedoraproject.org/wiki/Staying_close_to_upstream_projects</a></li>
+    </ul>
+
+    <p>set(CMAKE_INSTALL_PREFIX “${CMAKE_BINARY_DIR}” CACHE PATH “Default install path” FORCE) is present in CMAKELists.txt by default. my path removed the line. So this patch can be removed?</p>
+  </li>
+  <li>Use <code class="highlighter-rouge">git-format-patch</code> for generating patches
+    <ul>
+      <li>Download the tar.gz from the repo remote</li>
+      <li>Initialize git repo</li>
+      <li>Do a <code class="highlighter-rouge">git checkout -b &lt;branch-name&gt;</code></li>
+      <li>Make changes and commit (DO NOT MERGE TO <code class="highlighter-rouge">master</code>)</li>
+      <li>Switch back to master and;</li>
+      <li><code class="highlighter-rouge">git format-patch &lt;branch-name&gt;</code></li>
+      <li>Patch files will be created based on each commit in the <code class="highlighter-rouge">&lt;branch-name&gt;</code></li>
+    </ul>
+  </li>
+  <li>Header files not found:
+    <ul>
+      <li>If the build is failing in few of the arches and the buildlog points to <code class="highlighter-rouge">*.h - not found</code> error, then there could be a mis-configuration with the default flags. For instance:
+        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>-- Looking for include file stdint.h
+-- Looking for include file stdint.h - not found
+</code></pre></div>        </div>
+      </li>
+      <li>In this case, <code class="highlighter-rouge">-msse2</code> flag is being set on a 32-bit compiler. However, GCC ARM Options suggest otherwise.
+        <blockquote>
+          <p>“For the x86-32 compiler, you must use -march=cpu-type, -msse or -msse2 switches to enable SSE extensions and make this option effective. For the x86-64 compiler, these extensions are enabled by default.”</p>
+        </blockquote>
+      </li>
+      <li>That is, <code class="highlighter-rouge">-msse2</code> is <em>not</em> a valid option for arm: <a href="https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html">https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html</a>
+  Therefore, when the upstream set -msse2 for <em>all</em> 32bit systems, they broke the 32bit arm builds</li>
+    </ul>
+  </li>
+</ul>
+
+<p>rpm -E %cmake`, you’ll see that the macro defines the standard library path for us in LIB_INSTALL_DIR, so simpler to just use that</p>
+
+<h3 id="devel-files">Devel Files</h3>
+
+<h3 id="tools-used">Tools used</h3>
+<ul>
+  <li>Koji</li>
+  <li>rpmbuild</li>
+  <li>fedora-review</li>
+  <li>mock</li>
+</ul>
+
+<h3 id="relevant-links">Relevant Links</h3>
+<p><a href="https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package">https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package</a> <br />
+<a href="http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html">http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html</a> <br />
+<a href="https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses">https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses</a><br />
+<a href="https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/">https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/">https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/</a><br />
+<a href="https://rpm.org/user_doc/autosetup.html">https://rpm.org/user_doc/autosetup.html</a><br />
+<a href="https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html">https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html</a><br />
+<a href="https://fedoraproject.org/wiki/Join_the_package_collection_maintainers">https://fedoraproject.org/wiki/Join_the_package_collection_maintainers</a><br />
+<a href="https://apps.fedoraproject.org/packages/">https://apps.fedoraproject.org/packages/</a>
+<a href="http://www.pathname.com/fhs/pub/fhs-2.3.html">FHS</a><br />
+<a href="http://ftp.rpm.org/api/4.4.2.2/config_macros.html">Config Macros</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_devel_packages">Devel Packages</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags">Compile Flags</a><br />
+<a href="https://fedoraproject.org/wiki/Packaging:Debuginfo#Useless_or_incomplete_debuginfo_packages_due_to_packaging_issues">Useless or incomplete debuginfo packages due to packaging issues</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_filesystem_layout">Filesystem Layout</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/">Versioning</a><br />
+https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/#_snapshots</p>
+:ET

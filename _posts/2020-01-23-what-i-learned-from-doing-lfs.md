@@ -4,7 +4,7 @@ title: "Linux from scratch (and what I learnt form it)"
 categories: linux
 ---
 
-I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The initially housekeeping steps were a bit discouraging but once the user and group for `lfs` were set up, things became a lot easier (and repetitive).
+I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The intial housekeeping steps were a bit discouraging but once the user and group for `lfs` were set up, things became a lot easier (and repetitive).
 
 Most of the time (while `Constructing a Temporary System`), I had to use variations of the following command:
 ```
@@ -18,7 +18,7 @@ To be fair, a good amount of time went in studying about the config parameters f
 ```
 [UPDATE] This process was especially helpful for me while Packaging @ Fedora
 ```
-The process was so repetative that I thought of writing a bash script for it, but as it turns out, folks at [linuxfromscratch.org](http://www.linuxfromscratch.org/alfs/index.html) already anticipated this.
+The process was so repetitive that I thought of writing a bash script for it, but as it turns out, folks at [linuxfromscratch.org](http://www.linuxfromscratch.org/alfs/index.html) already anticipated this.
 
 Things took an upwards turn from chapter 7 of the LFS book (System Configuration). Everything that followed is captivating at the least. (See takeaway section below)
 

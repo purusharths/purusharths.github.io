@@ -1,0 +1,85 @@
+I"y<p>Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by <code class="highlighter-rouge">Asia/Kolkata</code>, even after Kolkata lost its status as the most populous or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).</p>
+
+<p>And as I looked into it, I found some interesting facts about IST (Full Disclosure: Citation Needed).</p>
+
+<p>Long before IST, there was:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Time Zone</th>
+      <th>Offset</th>
+      <th>Abandoned in</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Calcutta Time</td>
+      <td>UTC +5:53</td>
+      <td>1948</td>
+    </tr>
+    <tr>
+      <td>Madras Time</td>
+      <td>UTC +5:21</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>Bombay Time</td>
+      <td>UTC +4:51</td>
+      <td>1955</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Madras Time was also called Railway time of India (since Madras Time lay between Calcutta and Bombay time) and of all the three, it was the closest to the current IST.</p>
+
+<h3 id="so-why-asiakolkata">So, why Asia/Kolkata?</h3>
+<p>Kolkata (then Calcutta) was the administrative capital of India and one of the most prominent city. The name Asia/Calcutta and later Asia/Kolkata was used since it was the most populous city in the zone at when the timezone was set up [1]. This is no longer true [2].</p>
+
+<p>Technically, it should <em>have</em> been changed, preferably to <strong>Asia/Mumbai</strong>. The last known conversation on this happened in 2012 and in 2015 [3][4].</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Mayuresh Kathe mayuresh at wolfman.devio.us
+Fri Dec 21 05:23:03 UTC 2012 
+
+may i know the reason why asia/kolkata represents +0530 in india?
+logically, technically and politically speaking, it's incorrect.
+
+~mayuresh
+</code></pre></div></div>
+<p>and</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sujay Phadke sujay.phadke at gmail.com
+Thu Mar 5 00:08:29 UTC 2015 
+
+
+Could you please add "New Delhi" or "Mumbai" to the +5:30 UTC timezone
+list?
+</code></pre></div></div>
+
+<p>So, will the tzinfo be changed for India to Asia/Mumbai? It’s unnecessary and unlikey. There can only be one zone representation for a country, and for all pratical purposes Asia/Kolkata does just that. It’s a representation for the Indian Time Zone.</p>
+
+<p>But given that Mumbai is the most populus city in India, should it be changed? The last answer on this topic answers the question for good and pretty much seals the fate of <em>Asia/Kolkata</em> [5]</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Clive D.W. Feather clive at davros.org
+Fri Mar 6 18:23:17 UTC 2015 
+
+...
+...
+
+We don't need two names for the same zone.
+
+I don't think we should make the change just because populations have
+altered. That way lies madness as the most populous place keeps changing.
+</code></pre></div></div>
+
+<p>And anyway, the overhead from legacy systems from chaning the tzinfo might cause an unnecessary overhead.</p>
+
+<p>PS: <a href="https://github.com/eggert/tz/blob/master/asia#L1263">https://github.com/eggert/tz/blob/master/asia#L1263</a></p>
+
+<hr />
+<h3 id="references">References:</h3>
+<p>[1] <a href="https://mm.icann.org/pipermail/tz/2012-December/018487.html">https://mm.icann.org/pipermail/tz/2012-December/018487.html</a><br />
+[2] <a href="https://web.archive.org/web/20150630112755/http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3">http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3</a> <br />
+[3] <a href="https://mm.icann.org/pipermail/tz/2012-December/018482.html">https://mm.icann.org/pipermail/tz/2012-December/018482.html</a><br />
+[4] <a href="https://mm.icann.org/pipermail/tz/2015-March/022065.html">https://mm.icann.org/pipermail/tz/2015-March/022065.html</a>
+[5] <a href="http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html">http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html</a></p>
+:ET

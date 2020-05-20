@@ -1,0 +1,93 @@
+I"P<p>There are great many tutorials out there for packaging. The RPM docs are meticuliously written covering all the details and error logs. I’m using this blogpost as my own personal scratchpad which I can rerfer to whenever needed.</p>
+
+<h3 id="relevant-links">Relevant Links</h3>
+<p><a href="https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package">https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package</a> <br />
+<a href="http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html">http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html</a> <br />
+<a href="https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses">https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses</a><br />
+<a href="https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/">https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/">https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/</a><br />
+<a href="https://rpm.org/user_doc/autosetup.html">https://rpm.org/user_doc/autosetup.html</a><br />
+<a href="https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html">https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html</a><br />
+<a href="https://fedoraproject.org/wiki/Join_the_package_collection_maintainers">https://fedoraproject.org/wiki/Join_the_package_collection_maintainers</a><br />
+<a href="https://apps.fedoraproject.org/packages/">https://apps.fedoraproject.org/packages/</a>
+<a href="http://www.pathname.com/fhs/pub/fhs-2.3.html">FHS</a><br />
+<a href="http://ftp.rpm.org/api/4.4.2.2/config_macros.html">Config Macros</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_devel_packages">Devel Packages</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags">Compile Flags</a><br />
+<a href="https://fedoraproject.org/wiki/Packaging:Debuginfo#Useless_or_incomplete_debuginfo_packages_due_to_packaging_issues">Useless or incomplete debuginfo packages due to packaging issues</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_filesystem_layout">Filesystem Layout</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/">Versioning</a><br />
+https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/#_snapshots</p>
+
+<h3 id="cmake-installations">CMake Installations</h3>
+<p>Join Fedora BOT, [26.02.20 21:28]</p>
+<FranciscoD> there are many different "build" tools
+
+Join Fedora BOT, [26.02.20 21:28]
+<FranciscoD> configure is only used for "Autotools"
+
+Join Fedora BOT, [26.02.20 21:28]
+<FranciscoD> this has a CMakeLists.txt file, so it uses the cmake system
+
+Join Fedora BOT, [26.02.20 21:29]
+<FranciscoD> you make changes in %build as the cmake guideline page says
+
+	when you're in the build directory, you'll have to use `%cmake ..`
+
+	Join Fedora BOT, [07.03.20 01:24]
+<FranciscoD> the .a file is a static library---we avoid those
+
+Join Fedora BOT, [07.03.20 01:24]
+<FranciscoD> https://docs.fedoraproject.org/en-US/packaging-guidelines/#packaging-static-libraries
+
+	https://gcc.gnu.org/gcc-10/porting_to.html
+
+	https://gcc.gnu.org/onlinedocs/gcc/Attribute-Syntax.html
+	https://fedoraproject.org/wiki/Staying_close_to_upstream_projects
+
+	set(CMAKE_INSTALL_PREFIX "${CMAKE_BINARY_DIR}" CACHE PATH "Default install path" FORCE) is present in CMAKELists.txt by default. my path removed the line. So this patch can be removed?
+
+
+	```
+	Yes, this one cannot find header files. However, for the successful builds in noarch, i686, and x86_64 all files were present.
+ 
+-- Looking for include file stdint.h
+-- Looking for include file stdint.h - not found
+-- Looking for include file stddef.h
+-- Looking for include file stddef.h - not found
+-- Looking for include file math.h
+-- Looking for include file math.h - not found
+-- Looking for include file stddef.h
+-- Looking for include file stddef.h - not found
+-- Looking for include file direct.h
+-- Looking for include file direct.h - not found
+-- Looking for include file omp.h
+-- Looking for include file omp.h - not found
+-- Looking for isnan
+-- Looking for isnan - not found
+-- Looking for exp
+-- Looking for exp - not found
+	```
+
+
+To disable certain compiler flags:
+Join Fedora BOT, [05.05.20 20:53]
+<FranciscoD> I was looking at the build logs, and I noticed some flags which are not in %{optflags} that we set for our builds
+
+Join Fedora BOT, [05.05.20 20:53]
+<FranciscoD> Try: `rpm -E %{optflags}` in a terminal
+
+Join Fedora BOT, [05.05.20 20:54]
+<FranciscoD> these are 0the flags that Fedora sets for packages, and *only* these must be set
+
+ I looked to see where in the CMakeLists.txt files upstream had hard coded their flags
+ https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags
+
+Well, it isn't forbidden to use other flags, but unless there's a very good reason to do so, we stick to these
+
+### Devel Files
+
+
+### Tools used
+</FranciscoD></FranciscoD></FranciscoD></FranciscoD></FranciscoD></FranciscoD></FranciscoD></FranciscoD></FranciscoD>
+:ET

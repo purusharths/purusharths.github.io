@@ -1,0 +1,26 @@
+I"ñ	<p>There are great many tutorials out there for packaging. The RPM docs are meticuliously written covering all the details and error logs. Iâ€™m using this blogpost as my own personal scratchpad which I can rerfer to whenever needed.</p>
+
+<h3 id="relevant-links">Relevant Links</h3>
+<p><a href="https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package">https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package</a> <br />
+<a href="http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html">http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html</a> <br />
+<a href="https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses">https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses</a><br />
+<a href="https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/">https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/">https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/</a><br />
+<a href="https://rpm.org/user_doc/autosetup.html">https://rpm.org/user_doc/autosetup.html</a><br />
+<a href="https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html">https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html</a><br />
+<a href="https://fedoraproject.org/wiki/Join_the_package_collection_maintainers">https://fedoraproject.org/wiki/Join_the_package_collection_maintainers</a><br />
+<a href="https://apps.fedoraproject.org/packages/">https://apps.fedoraproject.org/packages/</a>
+<a href="http://www.pathname.com/fhs/pub/fhs-2.3.html">FHS</a><br />
+<a href="http://ftp.rpm.org/api/4.4.2.2/config_macros.html">Config Macros</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_devel_packages">Devel Packages</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags">Compile Flags</a><br />
+<a href="https://fedoraproject.org/wiki/Packaging:Debuginfo#Useless_or_incomplete_debuginfo_packages_due_to_packaging_issues">Useless or incomplete debuginfo packages due to packaging issues</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/#_filesystem_layout">Filesystem Layout</a><br />
+<a href="https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/">Versioning</a><br /></p>
+
+<h3 id="cmake-installations">CMake Installations</h3>
+
+<h3 id="devel-files">Devel Files</h3>
+
+<h3 id="tools-used">Tools used</h3>
+:ET
