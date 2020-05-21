@@ -1,0 +1,21 @@
+I"…<p>Mutt is a terminal based email client. The following article talks about its configuration in Fedora systems. All due credit goes to <a href="https://www.ee.iitb.ac.in/~belur/">Prof. Madhu Belur</a></p>
+
+<p>install <code class="highlighter-rouge">msmtprc</code>
+configuration for <code class="highlighter-rouge">~/.msmtprc</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>defaults
+auth on
+tls on
+logfile ~/.msmtp.log
+
+account iitb
+host smtp-auth.iitb.ac.in
+port 587
+from LDAP@iitb.ac.in
+user LDAP username? 
+password ### 
+
+# Set a default account
+account default : iitb
+</code></pre></div></div>
+:ET

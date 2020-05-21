@@ -1,0 +1,63 @@
+I"#<ul>
+  <li>
+    <h3 id="pyvtk">PyVTK</h3>
+    <ul>
+      <li>PyVTK is the wrapper for VTK (written in C++). VTK or visualization Toolkit is a high-level visualization library used for 3D computer graphics and visualizations.
+        <ul>
+          <li>Maintained and developed by: <a href="https://www.kitware.com/">Kitware</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="manim-mathematical-animation">Manim (Mathematical Animation)</h3>
+    <ul>
+      <li>Started by Grant Sanderson (aka 3b1b) for as his own personal project. Now one of the most famous toolkits out there for explanatory animations. It uses <code class="highlighter-rouge">cairo (pycairo)</code> to write svgs and <code class="highlighter-rouge">ffmpeg</code> to merge them. The final output is a <code class="highlighter-rouge">.mp4</code> file.
+  However, the lack of documentation makes it harder to use.
+        <ul>
+          <li><a href="https://github.com/3b1b/manim">Github</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="mayavi">Mayavi</h3>
+    <ul>
+      <li>Created by <a href="https://www.aero.iitb.ac.in/~prabhu/">Prof. Prabhu Ramachandran</a>, mayavi works on top of VTK. It can either be used as a python package or from the GUI module. More info avilable at the <a href="http://docs.enthought.com/mayavi/mayavi/overview.html#what-is-mayavi2">Mayavi docs</a>
+        <ul>
+          <li>Mayavi is now under the Enthought suite of scientific Python programs<br />
+  <a href="https://github.com/enthought/mayavi">Github</a> |  <a href="https://www.youtube.com/watch?v=r6OD07Qq2mw">Tutorial</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="vispy">Vispy</h3>
+    <ul>
+      <li></li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="glumpy">Glumpy</h3>
+    <ul>
+      <li>VisPy’s sister project, glumpy is a neatly designed interface between NumPy and OpenGL. It gives more low-level access than VisPy. Their documentation states: “<em>Glumpy is a python library for scientific visualization that is both fast, scalable and beautiful. Glumpy offers an intuitive interface between numpy and modern OpenGL.</em>”
+  <a href="">GitHub</a> | <a href="">Documentation</a></li>
+    </ul>
+  </li>
+  <li>
+    <h3 id="fenics-project">FEniCS Project</h3>
+    <ul>
+      <li>FEniCS Project is a set of free and open source software components used for FEM. It is used primarliy for computing Partial Differential Equations. Each subcomponet of FEniCS is optimized for Parallel Processing (with <code class="highlighter-rouge">mpi</code>).ion
+  It can be installed directly or through the docker image.
+        <ul>
+          <li>Funded by NumFOCUS
+            <ul>
+              <li><a href="https://github.com/FEniCS">GitHub</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+:ET

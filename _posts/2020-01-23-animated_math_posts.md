@@ -1,2 +1,0 @@
-Linalg + diffeqn
-

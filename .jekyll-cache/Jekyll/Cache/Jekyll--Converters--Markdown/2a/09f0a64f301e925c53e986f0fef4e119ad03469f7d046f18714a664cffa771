@@ -1,0 +1,19 @@
+I"»<p>Manim installation has become quite straghtforward since the <code class="highlighter-rouge">manimlib</code> wheel was released on <code class="highlighter-rouge">pip</code>.
+The system dependencies are as follows:</p>
+<ol>
+  <li><code class="highlighter-rouge">cario</code>: 2D graphics library</li>
+  <li><code class="highlighter-rouge">latex</code>: A high-quality typesetting system</li>
+  <li><code class="highlighter-rouge">ffmpeg</code>: Rendering videos</li>
+  <li><code class="highlighter-rouge">sox</code>: Sound Processing</li>
+</ol>
+
+<h2 id="installing-system-dependencies">Installing System Dependencies</h2>
+
+<ul>
+  <li>Fedora
+  <code class="highlighter-rouge">sudo dnf install cairo-devel ffmpeg sox texlive-scheme-full</code></li>
+  <li>Ubuntu
+  <code class="highlighter-rouge">
+  sudo apt install libcairo2-dev ffmpeg sox texlive texlive-fonts-extra texlive-latex-extra texlive-latex-recommended texlive-science tipa</code></li>
+</ul>
+:ET

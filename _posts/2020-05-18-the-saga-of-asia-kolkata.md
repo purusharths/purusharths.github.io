@@ -59,7 +59,7 @@ I don't think we should make the change just because populations have
 altered. That way lies madness as the most populous place keeps changing.
 ```
 
-And anyway, the overhead from legacy systems from changing the tzinfo might cause an unnecessary overhead.
+Moreover, the problems from updating the same the legacy systems from changing the tzinfo might cause an unnecessary overhead.
 
 
 PS: [https://github.com/eggert/tz/blob/master/asia#L1263](https://github.com/eggert/tz/blob/master/asia#L1263)
@@ -69,5 +69,5 @@ PS: [https://github.com/eggert/tz/blob/master/asia#L1263](https://github.com/egg
 [1] [https://mm.icann.org/pipermail/tz/2012-December/018487.html](https://mm.icann.org/pipermail/tz/2012-December/018487.html)<br>
 [2] [http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3](https://web.archive.org/web/20150630112755/http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3) <br>
 [3] [https://mm.icann.org/pipermail/tz/2012-December/018482.html](https://mm.icann.org/pipermail/tz/2012-December/018482.html)<br>
-[4] [https://mm.icann.org/pipermail/tz/2015-March/022065.html](https://mm.icann.org/pipermail/tz/2015-March/022065.html)
+[4] [https://mm.icann.org/pipermail/tz/2015-March/022065.html](https://mm.icann.org/pipermail/tz/2015-March/022065.html) <br>
 [5] [http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html](http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html)

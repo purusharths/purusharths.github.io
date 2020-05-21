@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-20T23:43:41+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pause and Ponder</title><author><name>Purusharth Saxena</name></author><entry><title type="html">The Saga of Asia/Kolkata</title><link href="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html" rel="alternate" type="text/html" title="The Saga of Asia/Kolkata" /><published>2020-05-18T00:00:00+05:30</published><updated>2020-05-18T00:00:00+05:30</updated><id>http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata</id><content type="html" xml:base="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html">&lt;p&gt;Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by &lt;code class=&quot;highlighter-rouge&quot;&gt;Asia/Kolkata&lt;/code&gt;, even after Kolkata lost its status as the most populous or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-21T18:17:24+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Pause and Ponder</title><author><name>Purusharth Saxena</name></author><entry><title type="html">The Saga of Asia/Kolkata</title><link href="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html" rel="alternate" type="text/html" title="The Saga of Asia/Kolkata" /><published>2020-05-18T00:00:00+05:30</published><updated>2020-05-18T00:00:00+05:30</updated><id>http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata</id><content type="html" xml:base="http://localhost:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html">&lt;p&gt;Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by &lt;code class=&quot;highlighter-rouge&quot;&gt;Asia/Kolkata&lt;/code&gt;, even after Kolkata lost its status as the most populous or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).&lt;/p&gt;
 
 &lt;p&gt;And as I looked into it, I found some interesting facts about IST (Full Disclosure: Citation Needed).&lt;/p&gt;
 
@@ -71,7 +71,7 @@ I don't think we should make the change just because populations have
 altered. That way lies madness as the most populous place keeps changing.
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;And anyway, the overhead from legacy systems from changing the tzinfo might cause an unnecessary overhead.&lt;/p&gt;
+&lt;p&gt;Moreover, the problems from updating the same the legacy systems from changing the tzinfo might cause an unnecessary overhead.&lt;/p&gt;
 
 &lt;p&gt;PS: &lt;a href=&quot;https://github.com/eggert/tz/blob/master/asia#L1263&quot;&gt;https://github.com/eggert/tz/blob/master/asia#L1263&lt;/a&gt;&lt;/p&gt;
 
@@ -80,8 +80,71 @@ altered. That way lies madness as the most populous place keeps changing.
 &lt;p&gt;[1] &lt;a href=&quot;https://mm.icann.org/pipermail/tz/2012-December/018487.html&quot;&gt;https://mm.icann.org/pipermail/tz/2012-December/018487.html&lt;/a&gt;&lt;br /&gt;
 [2] &lt;a href=&quot;https://web.archive.org/web/20150630112755/http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3&quot;&gt;http://pibmumbai.gov.in/scripts/detail.asp?releaseId=E2011IS3&lt;/a&gt; &lt;br /&gt;
 [3] &lt;a href=&quot;https://mm.icann.org/pipermail/tz/2012-December/018482.html&quot;&gt;https://mm.icann.org/pipermail/tz/2012-December/018482.html&lt;/a&gt;&lt;br /&gt;
-[4] &lt;a href=&quot;https://mm.icann.org/pipermail/tz/2015-March/022065.html&quot;&gt;https://mm.icann.org/pipermail/tz/2015-March/022065.html&lt;/a&gt;
-[5] &lt;a href=&quot;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&quot;&gt;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by Asia/Kolkata, even after Kolkata lost its status as the most populous or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).</summary></entry><entry><title type="html">Open Source Visual Toolkits</title><link href="http://localhost:4000/2020/04/20/open-source-visual-toolkits.html" rel="alternate" type="text/html" title="Open Source Visual Toolkits" /><published>2020-04-20T00:00:00+05:30</published><updated>2020-04-20T00:00:00+05:30</updated><id>http://localhost:4000/2020/04/20/open-source-visual-toolkits</id><content type="html" xml:base="http://localhost:4000/2020/04/20/open-source-visual-toolkits.html"></content><author><name>Purusharth Saxena</name></author><summary type="html"></summary></entry><entry><title type="html">Making RPM packages @ fedoraproject.org</title><link href="http://localhost:4000/misc/2020/02/23/fedora-packaging.html" rel="alternate" type="text/html" title="Making RPM packages @ fedoraproject.org" /><published>2020-02-23T00:00:00+05:30</published><updated>2020-02-23T00:00:00+05:30</updated><id>http://localhost:4000/misc/2020/02/23/fedora-packaging</id><content type="html" xml:base="http://localhost:4000/misc/2020/02/23/fedora-packaging.html">&lt;p&gt;There are great many tutorials out there for packaging. The RPM docs are meticuliously written covering all the details and error logs. I’m using this blogpost as my own personal scratchpad which I can rerfer to whenever needed.&lt;/p&gt;
+[4] &lt;a href=&quot;https://mm.icann.org/pipermail/tz/2015-March/022065.html&quot;&gt;https://mm.icann.org/pipermail/tz/2015-March/022065.html&lt;/a&gt; &lt;br /&gt;
+[5] &lt;a href=&quot;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&quot;&gt;http://127.0.0.1:4000/misc/2020/05/18/the-saga-of-asia-kolkata.html&lt;/a&gt;&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Apologies for the misleading title, it’s not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by Asia/Kolkata, even after Kolkata lost its status as the most populous or important city of India (there’s no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).</summary></entry><entry><title type="html">Directory of Open Source Visualization Toolkits</title><link href="http://localhost:4000/simulation/2020/04/20/open-source-visual-toolkits.html" rel="alternate" type="text/html" title="Directory of Open Source Visualization Toolkits" /><published>2020-04-20T00:00:00+05:30</published><updated>2020-04-20T00:00:00+05:30</updated><id>http://localhost:4000/simulation/2020/04/20/open-source-visual-toolkits</id><content type="html" xml:base="http://localhost:4000/simulation/2020/04/20/open-source-visual-toolkits.html">&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;pyvtk&quot;&gt;PyVTK&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;PyVTK is the wrapper for VTK (written in C++). VTK or visualization Toolkit is a high-level visualization library used for 3D computer graphics and visualizations.
+        &lt;ul&gt;
+          &lt;li&gt;Maintained and developed by: &lt;a href=&quot;https://www.kitware.com/&quot;&gt;Kitware&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;manim-mathematical-animation&quot;&gt;Manim (Mathematical Animation)&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Started by Grant Sanderson (aka 3b1b) for as his own personal project. Now one of the most famous toolkits out there for explanatory animations. It uses &lt;code class=&quot;highlighter-rouge&quot;&gt;cairo (pycairo)&lt;/code&gt; to write svgs and &lt;code class=&quot;highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt; to merge them. The final output is a &lt;code class=&quot;highlighter-rouge&quot;&gt;.mp4&lt;/code&gt; file.
+  However, the lack of documentation makes it harder to use.
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/3b1b/manim&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;mayavi&quot;&gt;Mayavi&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Created by &lt;a href=&quot;https://www.aero.iitb.ac.in/~prabhu/&quot;&gt;Prof. Prabhu Ramachandran&lt;/a&gt;, mayavi works on top of VTK. It can either be used as a python package or from the GUI module. More info avilable at the &lt;a href=&quot;http://docs.enthought.com/mayavi/mayavi/overview.html#what-is-mayavi2&quot;&gt;Mayavi docs&lt;/a&gt;
+        &lt;ul&gt;
+          &lt;li&gt;Mayavi is now under the Enthought suite of scientific Python programs&lt;br /&gt;
+  &lt;a href=&quot;https://github.com/enthought/mayavi&quot;&gt;Github&lt;/a&gt; |  &lt;a href=&quot;https://www.youtube.com/watch?v=r6OD07Qq2mw&quot;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;vispy&quot;&gt;Vispy&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;VisPy was designed by Luke Campagnola, Almar Klein, Cyrille Rossant and Nicolas P. Rougier. It was aimed at creating fast andscalable visualization. VisPy is a sucessor of &lt;a href=&quot;https://github.com/almarklein/visvis&quot;&gt;visvis&lt;/a&gt;. However, I am doubful if the project is being actively maintained.&lt;br /&gt;
+  &lt;a href=&quot;http://vispy.org/&quot;&gt;Home&lt;/a&gt; | &lt;a href=&quot;https://github.com/vispy/vispy&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;http://vispy.org/documentation.html&quot;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;glumpy&quot;&gt;Glumpy&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;VisPy’s sister project, glumpy is a neatly designed interface between NumPy and OpenGL. It gives more low-level access than VisPy. Their documentation states: “&lt;em&gt;Glumpy is a python library for scientific visualization that is both fast, scalable and beautiful. Glumpy offers an intuitive interface between numpy and modern OpenGL.&lt;/em&gt;“&lt;br /&gt;
+  &lt;a href=&quot;https://github.com/glumpy/glumpy&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://glumpy.readthedocs.io/en/latest/&quot;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h3 id=&quot;fenics-project&quot;&gt;FEniCS Project&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;FEniCS Project is a set of free and open source software components used for FEM. It is used primarliy for computing Partial Differential Equations. Each subcomponet of FEniCS is optimized for Parallel Processing (with &lt;code class=&quot;highlighter-rouge&quot;&gt;mpi&lt;/code&gt;).ion
+  It can be installed directly or through the docker image.
+        &lt;ul&gt;
+          &lt;li&gt;Funded by NumFOCUS&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/FEniCS&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">PyVTK PyVTK is the wrapper for VTK (written in C++). VTK or visualization Toolkit is a high-level visualization library used for 3D computer graphics and visualizations. Maintained and developed by: Kitware</summary></entry><entry><title type="html">Mathematics using Python - FOSSEE Summer Fellowship 2020</title><link href="http://localhost:4000/fossee/2020/04/15/fossee-summer-fellowship-update.html" rel="alternate" type="text/html" title="Mathematics using Python - FOSSEE Summer Fellowship 2020" /><published>2020-04-15T00:00:00+05:30</published><updated>2020-04-15T00:00:00+05:30</updated><id>http://localhost:4000/fossee/2020/04/15/fossee-summer-fellowship-update</id><content type="html" xml:base="http://localhost:4000/fossee/2020/04/15/fossee-summer-fellowship-update.html">&lt;p&gt;For the &lt;a href=&quot;https://math.animations.fossee.in&quot;&gt;FOSSEE Animations&lt;/a&gt; project we have shortlisted 10 students who will be creating a lecture notes and their corrosponding animations.
+The syllabus for the said lecture-notes will be loosely based off from IIT Bombay’s first year math syllabus.&lt;br /&gt; 
+I will be mentoring the shortlisted students along with &lt;a href=&quot;https://github.com/sh-ac&quot;&gt;Sharanya Acut&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I will post further updates towards the end of the fellowship.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">For the FOSSEE Animations project we have shortlisted 10 students who will be creating a lecture notes and their corrosponding animations. The syllabus for the said lecture-notes will be loosely based off from IIT Bombay’s first year math syllabus. I will be mentoring the shortlisted students along with Sharanya Acut.</summary></entry><entry><title type="html">Making RPM packages @ fedoraproject.org</title><link href="http://localhost:4000/fedora/2020/02/23/fedora-packaging.html" rel="alternate" type="text/html" title="Making RPM packages @ fedoraproject.org" /><published>2020-02-23T00:00:00+05:30</published><updated>2020-02-23T00:00:00+05:30</updated><id>http://localhost:4000/fedora/2020/02/23/fedora-packaging</id><content type="html" xml:base="http://localhost:4000/fedora/2020/02/23/fedora-packaging.html">&lt;p&gt;There are great many tutorials out there for packaging. The RPM docs are meticuliously written covering all the details and error logs. I’m using this blogpost as my own personal scratchpad which I can rerfer to whenever needed.&lt;/p&gt;
 
 &lt;h3 id=&quot;cmake-installations&quot;&gt;CMake Installations&lt;/h3&gt;
 
@@ -198,32 +261,33 @@ popd build
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;devel-files&quot;&gt;Devel Files&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#_devel_packages&quot;&gt;Devel Packages&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;More on these later&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;tools-used&quot;&gt;Tools used&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;Koji&lt;/li&gt;
-  &lt;li&gt;rpmbuild&lt;/li&gt;
-  &lt;li&gt;fedora-review&lt;/li&gt;
-  &lt;li&gt;mock&lt;/li&gt;
+  &lt;li&gt;Koji: Test the build for rawhide in various architectures&lt;/li&gt;
+  &lt;li&gt;rpmbuild: Build the RPM and SRPM files from SPEC file&lt;/li&gt;
+  &lt;li&gt;fedora-review: Download SPEC and SRPM from bugzilla&lt;/li&gt;
+  &lt;li&gt;mock: For mock builds&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;relevant-links&quot;&gt;Relevant Links&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package&quot;&gt;https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html&quot;&gt;http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses&quot;&gt;https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/&quot;&gt;https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/&quot;&gt;https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://rpm.org/user_doc/autosetup.html&quot;&gt;https://rpm.org/user_doc/autosetup.html&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html&quot;&gt;https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://fedoraproject.org/wiki/Join_the_package_collection_maintainers&quot;&gt;https://fedoraproject.org/wiki/Join_the_package_collection_maintainers&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://apps.fedoraproject.org/packages/&quot;&gt;https://apps.fedoraproject.org/packages/&lt;/a&gt;
-&lt;a href=&quot;http://www.pathname.com/fhs/pub/fhs-2.3.html&quot;&gt;FHS&lt;/a&gt;&lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package&quot;&gt;Creating GNU “Hello World” RPM Package&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html&quot;&gt;Macros: Helpful Shorthand for Package Builders&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses&quot;&gt;Good Licenses&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/&quot;&gt;[Fedora Mag] RPM Packages and SPEC files&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/&quot;&gt;Packaging Guidelines - CMake&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://rpm.org/user_doc/autosetup.html&quot;&gt;Automating patch application in specs&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html&quot;&gt;Handling RPM build errors for unpackaged files&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://fedoraproject.org/wiki/Join_the_package_collection_maintainers&quot;&gt;Join the package collection maintainers&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://apps.fedoraproject.org/packages/&quot;&gt;Search existing packages and their SPEC files&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://www.pathname.com/fhs/pub/fhs-2.3.html&quot;&gt;Filesystem Hierarchy Standard&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;http://ftp.rpm.org/api/4.4.2.2/config_macros.html&quot;&gt;Config Macros&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#_devel_packages&quot;&gt;Devel Packages&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags&quot;&gt;Compile Flags&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags&quot;&gt;Compiler Flags&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://fedoraproject.org/wiki/Packaging:Debuginfo#Useless_or_incomplete_debuginfo_packages_due_to_packaging_issues&quot;&gt;Useless or incomplete debuginfo packages due to packaging issues&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/#_filesystem_layout&quot;&gt;Filesystem Layout&lt;/a&gt;&lt;br /&gt;
 &lt;a href=&quot;https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/&quot;&gt;Versioning&lt;/a&gt;&lt;br /&gt;
@@ -245,5 +309,88 @@ This post has been shifted to math.animations.fossee.in.
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; The FOSSEE Animations website (&lt;a href=&quot;animations.fossee.in&quot;&gt;animations.fossee.in&lt;/a&gt;) will remain as is for the time being but will not take any new contributions.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Update on the FOSSEE Animations Project After receiving feedback from numerous students and profs, we realized that it was about time to change the format for contribution on animations.fossee.in. After much discussion, we started working on the creation of math.animations.fossee.in, more on this below:</summary></entry><entry><title type="html">Animated_math_posts</title><link href="http://localhost:4000/2020/01/23/animated_math_posts.html" rel="alternate" type="text/html" title="Animated_math_posts" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/animated_math_posts</id><content type="html" xml:base="http://localhost:4000/2020/01/23/animated_math_posts.html">&lt;p&gt;Linalg + diffeqn&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Linalg + diffeqn</summary></entry><entry><title type="html">Announcing Internships</title><link href="http://localhost:4000/2020/01/23/announcing-internships.html" rel="alternate" type="text/html" title="Announcing Internships" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/announcing-internships</id><content type="html" xml:base="http://localhost:4000/2020/01/23/announcing-internships.html">&lt;p&gt;voo hoo&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">voo hoo</summary></entry><entry><title type="html">Installing Manim</title><link href="http://localhost:4000/2020/01/23/installing-manim.html" rel="alternate" type="text/html" title="Installing Manim" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/installing-manim</id><content type="html" xml:base="http://localhost:4000/2020/01/23/installing-manim.html">&lt;p&gt;Test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Test</summary></entry><entry><title type="html">Motivation For Math Visual</title><link href="http://localhost:4000/2020/01/23/motivation-for-math-visual.html" rel="alternate" type="text/html" title="Motivation For Math Visual" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/motivation-for-math-visual</id><content type="html" xml:base="http://localhost:4000/2020/01/23/motivation-for-math-visual.html">&lt;p&gt;test&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test</summary></entry><entry><title type="html">Using Mayavi</title><link href="http://localhost:4000/2020/01/23/using-mayavi.html" rel="alternate" type="text/html" title="Using Mayavi" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/2020/01/23/using-mayavi</id><content type="html" xml:base="http://localhost:4000/2020/01/23/using-mayavi.html">&lt;p&gt;test
-link for prabhu sirs video&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">test link for prabhu sirs video</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;Note:&lt;/em&gt; The FOSSEE Animations website (&lt;a href=&quot;animations.fossee.in&quot;&gt;animations.fossee.in&lt;/a&gt;) will remain as is for the time being but will not take any new contributions.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Update on the FOSSEE Animations Project After receiving feedback from numerous students and profs, we realized that it was about time to change the format for contribution on animations.fossee.in. After much discussion, we started working on the creation of math.animations.fossee.in, more on this below:</summary></entry><entry><title type="html">Installing manim</title><link href="http://localhost:4000/fossee/2020/01/23/installing-manim.html" rel="alternate" type="text/html" title="Installing manim " /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/fossee/2020/01/23/installing-manim</id><content type="html" xml:base="http://localhost:4000/fossee/2020/01/23/installing-manim.html">&lt;p&gt;Manim installation has become quite straghtforward since the &lt;code class=&quot;highlighter-rouge&quot;&gt;manimlib&lt;/code&gt; wheel was released on &lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt;.
+The system dependencies are as follows:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cario&lt;/code&gt;: 2D graphics library&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;latex&lt;/code&gt;: A high-quality typesetting system&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ffmpeg&lt;/code&gt;: Rendering videos&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sox&lt;/code&gt;: Sound Processing&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;installing-system-dependencies&quot;&gt;Installing System Dependencies&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fedora
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  sudo dnf install cairo-devel ffmpeg sox texlive-scheme-full
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Ubuntu
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  sudo apt install libcairo2-dev ffmpeg sox texlive texlive-fonts-extra texlive-latex-extra texlive-latex-recommended texlive-science tipa
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Additionally make sure that python 3.7.x is installed, along with the header/static files, venv and pip&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install python3-dev python3-venv python3-pip
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;installing-manimlib&quot;&gt;Installing manimlib&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create the virtual environment: &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 -m venv ~/manim-venv&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Activate the environment: &lt;code class=&quot;highlighter-rouge&quot;&gt;source ~/manim-venv/bin/activate&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;pip installation: &lt;code class=&quot;highlighter-rouge&quot;&gt;pip install manimlib&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Check your installation by using the following commands:
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://static.fossee.in/animations/workshop/manim_hello_world_text.py 
+manim manim_hello_world_text.py TestManimInstallation 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Manim installation has become quite straghtforward since the manimlib wheel was released on pip. The system dependencies are as follows: cario: 2D graphics library latex: A high-quality typesetting system ffmpeg: Rendering videos sox: Sound Processing</summary></entry><entry><title type="html">Upcomming math internships at FOSSEE Animations @ IITB</title><link href="http://localhost:4000/fossee/2020/01/23/upcomming-internships-at-fossee-math-iitb.html" rel="alternate" type="text/html" title="Upcomming math internships at FOSSEE Animations @ IITB " /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/fossee/2020/01/23/upcomming-internships-at-fossee-math-iitb</id><content type="html" xml:base="http://localhost:4000/fossee/2020/01/23/upcomming-internships-at-fossee-math-iitb.html">&lt;p&gt;UPDATE: Read &lt;a href=&quot;/fossee/2020/02/02/math.animations.fossee.in.html&quot;&gt;this article&lt;/a&gt; to know more about the nature of the internships.&lt;/p&gt;
+
+&lt;p&gt;We’re soon going to have internships on FOSSEE Animations project for creating lecture notes and animations. The first one will probably be on Real Analysis. Updates on Slack Channel and mailing list. Please email me for the slack invite.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">UPDATE: Read this article to know more about the nature of the internships.</summary></entry><entry><title type="html">Linux from scratch (and what I learnt form it)</title><link href="http://localhost:4000/linux/2020/01/23/what-i-learned-from-doing-lfs.html" rel="alternate" type="text/html" title="Linux from scratch (and what I learnt form it)" /><published>2020-01-23T00:00:00+05:30</published><updated>2020-01-23T00:00:00+05:30</updated><id>http://localhost:4000/linux/2020/01/23/what-i-learned-from-doing-lfs</id><content type="html" xml:base="http://localhost:4000/linux/2020/01/23/what-i-learned-from-doing-lfs.html">&lt;p&gt;I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The intial housekeeping steps were a bit discouraging but once the user and group for &lt;code class=&quot;highlighter-rouge&quot;&gt;lfs&lt;/code&gt; were set up, things became a lot easier (and repetitive).&lt;/p&gt;
+
+&lt;p&gt;Most of the time (while &lt;code class=&quot;highlighter-rouge&quot;&gt;Constructing a Temporary System&lt;/code&gt;), I had to use variations of the following command:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir -v build
+cd build
+../configure &amp;lt;tool-specific-flags&amp;gt;
+make -j8 
+make install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;To be fair, a good amount of time went in studying about the config parameters for different tools like GCC, Bash etc.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[UPDATE] This process was especially helpful for me while Packaging @ Fedora
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;The process was so repetitive that I thought of writing a bash script for it, but as it turns out, folks at &lt;a href=&quot;http://www.linuxfromscratch.org/alfs/index.html&quot;&gt;linuxfromscratch.org&lt;/a&gt; already anticipated this.&lt;/p&gt;
+
+&lt;p&gt;Things took an upwards turn from chapter 7 of the LFS book (System Configuration). Everything that followed is captivating at the least. (See takeaway section below)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tl;dr:&lt;/strong&gt; The process was interesting; but tedious at times. configuration options are important. Things get a lot more interesting from Chapter 7 onwards.&lt;/p&gt;
+
+&lt;h4 id=&quot;my-takeaway-from-the-process-install-arch-first&quot;&gt;My Takeaway from the process: install arch first&lt;/h4&gt;
+&lt;p&gt;I say this because if you play your cards right, you’d get to pick up the arch installation right from System Configuration section of LFS, which – atleast in my views – is the most important section of the entire process.&lt;/p&gt;
+
+&lt;p&gt;–&lt;/p&gt;
+
+&lt;p&gt;The whole process took me a couple of days iirc. Thankfully, the spare machine that I recieved was an old i7 ThinkPad while made the whole thing quite enjoyble. If you’re planning on doing it over a VM, then be prepared to leave the system overnight for compilation.&lt;/p&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">I got a spare system during the last days 2018 and decided to try my hands at it. The process was, suprisingly, not as complicated as one would expect. Infact it was quite straightforward. The intial housekeeping steps were a bit discouraging but once the user and group for lfs were set up, things became a lot easier (and repetitive).</summary></entry><entry><title type="html">[Fedora] Using mutt for IIT Bombay GPO</title><link href="http://localhost:4000/fedora/2020/01/15/using-mutt-with-iitb-gpo.html" rel="alternate" type="text/html" title="[Fedora] Using mutt for IIT Bombay GPO" /><published>2020-01-15T00:00:00+05:30</published><updated>2020-01-15T00:00:00+05:30</updated><id>http://localhost:4000/fedora/2020/01/15/using-mutt-with-iitb-gpo</id><content type="html" xml:base="http://localhost:4000/fedora/2020/01/15/using-mutt-with-iitb-gpo.html">&lt;p&gt;Mutt is a terminal based email client. The following article talks about its configuration in Fedora systems. All due credit goes to &lt;a href=&quot;https://www.ee.iitb.ac.in/~belur/&quot;&gt;Prof. Madhu Belur&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;install &lt;code class=&quot;highlighter-rouge&quot;&gt;mutt&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;msmtprc&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ee.iitb.ac.in/~belur/foss/mutt/muttrc-iitgpo&quot;&gt;configuration for .muttrc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;configuration for &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.msmtprc&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;defaults
+auth on
+tls on
+logfile ~/.msmtp.log
+
+account iitb
+host smtp-auth.iitb.ac.in
+port 587
+from LDAP@iitb.ac.in
+user LDAP username? 
+password ### 
+
+# Set a default account
+account default : iitb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Purusharth Saxena</name></author><summary type="html">Mutt is a terminal based email client. The following article talks about its configuration in Fedora systems. All due credit goes to Prof. Madhu Belur</summary></entry></feed>

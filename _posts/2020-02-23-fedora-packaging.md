@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making RPM packages @ fedoraproject.org"
-categories: misc
+categories: fedora
 ---
 
 There are great many tutorials out there for packaging. The RPM docs are meticuliously written covering all the details and error logs. I'm using this blogpost as my own personal scratchpad which I can rerfer to whenever needed.
@@ -93,28 +93,29 @@ A `CMakeLists.txt` uses the cmake system. Make changes in %build as per the `cma
 
 
 ### Devel Files
+[Devel Packages](https://docs.fedoraproject.org/en-US/packaging-guidelines/#_devel_packages)<br>
 > More on these later
 
 ### Tools used
-- Koji
-- rpmbuild
-- fedora-review
-- mock
+- Koji: Test the build for rawhide in various architectures
+- rpmbuild: Build the RPM and SRPM files from SPEC file
+- fedora-review: Download SPEC and SRPM from bugzilla
+- mock: For mock builds
 
 ### Relevant Links
-[https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package](https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package) <br>
-[http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html](http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html) <br>
-[https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses](https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses)<br>
-[https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/](https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/)<br>
-[https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/](https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/)<br>
-[https://rpm.org/user_doc/autosetup.html](https://rpm.org/user_doc/autosetup.html)<br>
-[https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html](https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html)<br>
-[https://fedoraproject.org/wiki/Join_the_package_collection_maintainers](https://fedoraproject.org/wiki/Join_the_package_collection_maintainers)<br>
-[https://apps.fedoraproject.org/packages/](https://apps.fedoraproject.org/packages/)
-[FHS](http://www.pathname.com/fhs/pub/fhs-2.3.html)<br>
+[Creating GNU "Hello World" RPM Package](https://fedoraproject.org/wiki/How_to_create_a_GNU_Hello_RPM_package) <br>
+[Macros: Helpful Shorthand for Package Builders](http://ftp.rpm.org/max-rpm/s1-rpm-inside-macros.html) <br>
+[Good Licenses](https://fedoraproject.org/wiki/Licensing:Main?rd=Licensing#Good_Licenses)<br>
+[[Fedora Mag] RPM Packages and SPEC files](https://fedoramagazine.org/how-rpm-packages-are-made-the-spec-file/)<br>
+[Packaging Guidelines - CMake](https://docs.fedoraproject.org/en-US/packaging-guidelines/CMake/)<br>
+[Automating patch application in specs](https://rpm.org/user_doc/autosetup.html)<br>
+[Handling RPM build errors for unpackaged files](https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/RPM_Guide/ch09s05s07.html)<br>
+[Join the package collection maintainers](https://fedoraproject.org/wiki/Join_the_package_collection_maintainers)<br>
+[Search existing packages and their SPEC files](https://apps.fedoraproject.org/packages/)<br>
+[Filesystem Hierarchy Standard](http://www.pathname.com/fhs/pub/fhs-2.3.html)<br>
 [Config Macros](http://ftp.rpm.org/api/4.4.2.2/config_macros.html)<br>
 [Devel Packages](https://docs.fedoraproject.org/en-US/packaging-guidelines/#_devel_packages)<br>
-[Compile Flags](https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags)<br>
+[Compiler Flags](https://docs.fedoraproject.org/en-US/packaging-guidelines/#_compiler_flags)<br>
 [Useless or incomplete debuginfo packages due to packaging issues](https://fedoraproject.org/wiki/Packaging:Debuginfo#Useless_or_incomplete_debuginfo_packages_due_to_packaging_issues)<br>
 [Filesystem Layout](https://docs.fedoraproject.org/en-US/packaging-guidelines/#_filesystem_layout)<br>
 [Versioning](https://docs.fedoraproject.org/en-US/packaging-guidelines/Versioning/)<br>
