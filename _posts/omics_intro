@@ -1,0 +1,11 @@
+Omics data refers to large-scale biological datasets that capture information about various molecular levels within a biological system. The term "omics" is derived from disciplines such as genomics, transcriptomics, proteomics, metabolomics, and others, each focusing on a specific aspect of biological molecules.
+
+    - Genomics: Deals with the study of an organism's complete set of DNA, including genes and non-coding regions.
+    - Transcriptomics: Involves the study of all RNA molecules, including messenger RNA (mRNA), in a cell or organism.
+    - Proteomics: Focuses on the identification and quantification of all proteins in a biological sample.
+    - Metabolomics: Analyzes the complete set of small molecules (metabolites) present in a biological system.
+    - Epigenomics: Examines changes in gene expression that are not caused by alterations in the DNA sequence itself but by chemical modifications to the DNA molecule.
+
+Omics data are generated using high-throughput technologies, such as DNA sequencing, mass spectrometry, and microarray analysis. Integrating and analyzing these large-scale datasets can provide insights into the complex interactions and functions of biological systems, aiding researchers in understanding various diseases, drug discovery, and personalized medicine.
+
+How does that happen? Consider Genomics
