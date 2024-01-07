@@ -1,8 +1,8 @@
 Some Projects that were done 
 
 Masters thesis code:
-Python Paraview Visualizations: 
-
+Python Paraview Visualizations: https://emcl-gitlab.iwr.uni-heidelberg.de/purusharth.saxena/paraviewvisualization
+Thesis Plots: https://github.com/purusharths/thesis_plots
 
 - **GRAF++**: A header only library used for generation of Gaussian Random Fields via circulant embeddings. Built on top of xetnsor and uses fftw3 backend.
 @TODO add Karhunen-Lourve expansion to incorporate PDE Constraint Bayesian Inverse Problems <br>
@@ -29,6 +29,8 @@ Molecule.
 https://github.com/purusharths/cmb-ubq-2k6d
 
 - Some infrequent contributions to [um-bridge](https://github.com/purusharths/umbridge), manim
+
+
 --
 
 - **Dicontinious Gelarkin method for Cavity Stokes**: Based on Di Petro and Ern's book on [Mathematical Aspects of Discontinuous Galerkin Methods](https://link.springer.com/book/10.1007/978-3-642-22980-0) Chapters 2, and 6.1 <br>
@@ -37,11 +39,10 @@ GitHub: https://github.com/purusharths/dg-CavityStokes<br>
 - **Magnus Effect in Navier Stokes**: [Magnus Effect](https://www.youtube.com/watch?v=2OSrvzNW9FE) simulated for a ball in a free flow boundary condition in hiflow3 <br>
 GitHub: https://github.com/purusharths/magnus-effect-navier-stokes<br>
 
-
-
-
 - **MIT Benchmark for heat driven convection**: Replication study for [Computational Predictability of Natural Convection Flows In Enclosures](https://www.osti.gov/servlets/purl/15006259-x0JCRo/native/) done with Hiflow3. This benchmark describes the heat driven cavity flow in a 8:1 rectangular domain at near-critical Rayleigh number. <br>
 GitHub: https://github.com/purusharths/mit_benckmark_heat_driven_cavity/
+
+--
 
 - **Sparse Matrix Benchmark**: Based on Yousuf Saad's book on [Iterative methods for Sparse Linear Systems](https://www-users.cse.umn.edu/~saad/IterMethBook_2ndEd.pdf). <br>
 Benchmarking done on different storage paradigm for Sparse Matrices (CSR/COO etc).<br>
@@ -49,6 +50,11 @@ GitLab: https://gitlab.com/purusharths/sparse-matrix-benchmark<br>
 
 - **Symmetric Gauss Sidel**: OpenMP based parallel implementation of [Symmetric Gauss Sidel](https://arxiv.org/abs/2311.14138)<br>
 GitHub: https://github.com/purusharths/symmetric-gauss-seidel-parallel<br>
+
+--
+
+**PyBind Hiflow**: Generating Python Wrapper for Hiflow3
+GitLab: https://emcl-gitlab.iwr.uni-heidelberg.de/hiflow_v3/pyhiflow
 
 Hardware aware computing
 /hiflow3.org/hiflow3/-/wikis
