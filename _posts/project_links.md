@@ -84,7 +84,7 @@ GitLab: https://gitlab.com/purusharths/hasc
 GitHub: https://github.com/purusharths/django_math.animations
 
 - **Ill Conditioned Matrices**: Generic motivation for why matrices are badly conditioned and why it matters. Presented in Banglore Python Meetup<br>
-GitHubhttps://github.com/purusharths/ill-conditioned-matrices
+GitHub: https://github.com/purusharths/ill-conditioned-matrices
 
 - **Presentation Scipy India 2019:** https://github.com/purusharths/scipy2019
 
