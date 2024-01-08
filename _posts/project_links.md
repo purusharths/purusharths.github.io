@@ -41,9 +41,11 @@ GitHub IO: https://purusharths.github.io/sco_intro_math
 - **Umbridge**: Umbrige is a framework that connects FEM software backend (dune, hiflow, dealii etc) with UQ backend (pymc, MUQ etc) eliminating the need to rewrite MC codes
 - [Hiflow integration with Umbridge](https://emcl-gitlab.iwr.uni-heidelberg.de/purusharth.saxena/fkpp-colorectal-adenoma/-/tree/umbridge/hiflow3-master/exercises/fischerKPP?ref_type=heads) and [um-bridge collaborations](https://github.com/purusharths/umbridge)
 
-- **Comparision Monte Carlo / Quasi-Monte Carlo Methods**:
+- **Comparision Monte Carlo / Quasi-Monte Carlo Methods**: Comparing different monte carlo approximations in Python [@TODO Python vs Julia]
+  GitHub: https://github.com/purusharths/nb_monte_carlo_benchmarks
 
-- **Numerical Methods for Baysiean Inverse Problems / Uncertainity Quantification**: https://github.com/purusharths/mcmc_test
+- **Numerical Methods for Baysiean Inverse Problems / Uncertainity Quantification**: Solving DE Constraint Baysiean Inverse Problem with Python
+  GitHub: https://github.com/purusharths/mcmc_test
 ---
 
 - **Dicontinious Gelarkin method for Cavity Stokes**: Based on Di Petro and Ern's book on [Mathematical Aspects of Discontinuous Galerkin Methods](https://link.springer.com/book/10.1007/978-3-642-22980-0) Chapters 2, and 6.1 <br>
