@@ -1,3 +1,9 @@
+---
+layout: post
+title: Link to Previous Projects
+category: unlisted
+---
+
 ### Masterarbeit: <br>
 **_Abstract:_** In this work, we use the Finite Element model to simulate colorectal cancer progression using the Fischer KPP equation in the microenvironment of colonic
 crypts. Emphasizing the role of initial conditions and crypt geometry, the thesis shows their impact on in silico cancer development. We use a novel approach with
