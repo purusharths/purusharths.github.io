@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Single Cell Omics"
+categories: biomath
+---
+
 Omics data refers to large-scale biological datasets that capture information about various molecular levels within a biological system. The term "omics" is derived from disciplines such as genomics, transcriptomics, proteomics, metabolomics, and others, each focusing on a specific aspect of biological molecules.
 
     - Genomics: Deals with the study of an organism's complete set of DNA, including genes and non-coding regions.
