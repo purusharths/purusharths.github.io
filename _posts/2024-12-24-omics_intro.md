@@ -13,7 +13,9 @@ Omics data refers to large-scale biological datasets that capture information ab
     - Epigenomics: Changes in gene expression that are not caused by alterations in the DNA sequence itself but by chemical modifications to the DNA molecule.
 
 There are multiple cell types in a single tissue - in fact, even within a small subsection of the tissues.
-![](https://i.imgur.com/E9fjGGn.png)
+![](https://i.imgur.com/E9fjGGn.png){:width="100%" max-width="30px"}
+
+
 
 Therefore, bulk RNA sequencing cannot differentiate the transcriptional changes between individual cell types. Therefore, single-cell sequencing is used. 
 (Transcriptional changes refer to alterations in the process of transcription, which is the synthesis of RNA from a DNA template. In this process, information encoded in DNA is transcribed into RNA molecules. These changes can be influenced by various factors, including external stimuli, environmental conditions, or cellular signals.)
