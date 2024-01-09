@@ -6,12 +6,18 @@ categories: biomath
 
 Omics data refers to large-scale biological datasets that capture information about various molecular levels within a biological system. The term "omics" is derived from disciplines such as genomics, transcriptomics, proteomics, metabolomics, and others, each focusing on a specific aspect of biological molecules.
 
-    - Genomics: Deals with the study of an organism's complete set of DNA, including genes and non-coding regions.
-    - Transcriptomics: Involves the study of all RNA molecules, including messenger RNA (mRNA), in a cell or organism.
-    - Proteomics: Focuses on the identification and quantification of all proteins in a biological sample.
+    - Genomics: Complete set of DNA, including genes and non-coding regions.
+    - Transcriptomics: RNA molecules, including messenger RNA (mRNA), in a cell or organism.
+    - Proteomics: Identification and quantification of all proteins in a biological sample.
     - Metabolomics: Analyzes the complete set of small molecules (metabolites) present in a biological system.
-    - Epigenomics: Examines changes in gene expression that are not caused by alterations in the DNA sequence itself but by chemical modifications to the DNA molecule.
+    - Epigenomics: Changes in gene expression that are not caused by alterations in the DNA sequence itself but by chemical modifications to the DNA molecule.
 
-Omics data are generated using high-throughput technologies, such as DNA sequencing, mass spectrometry, and microarray analysis. Integrating and analyzing these large-scale datasets can provide insights into the complex interactions and functions of biological systems, aiding researchers in understanding various diseases, drug discovery, and personalized medicine.
+There are multiple cell types in a single tissue - in fact, even within a small subsection of the tissues.
+![](https://i.imgur.com/E9fjGGn.png)
 
-How does that happen? Consider Genomics
+Therefore, bulk RNA sequencing cannot differentiate the transcriptional changes between individual cell types. Therefore, single-cell sequencing is used. 
+(Transcriptional changes refer to alterations in the process of transcription, which is the synthesis of RNA from a DNA template. In this process, information encoded in DNA is transcribed into RNA molecules. These changes can be influenced by various factors, including external stimuli, environmental conditions, or cellular signals.)
+
+Sequencing happens with 10x barcoded gel beads. A recording of the sequencing is available here: https://youtu.be/vL7ptq2Dcf0?t=134 (even though a different process (drop-seq) is shown in the video, the overarching goal is the same as with 10x)
+
+![Gel Beads example. Taken from 10xgenomics.com](https://kb.10xgenomics.com/hc/article_attachments/360091053751/Screenshot_2021-03-30_131342.png)
