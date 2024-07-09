@@ -4,7 +4,7 @@ title: "The Saga of Asia/Kolkata"
 categories: misc
 ---
 
-Apologies for the misleading title, it's not really a saga for Asia/Kolkata. I just wondered why, even to this day, the Indian timezone is recognized by `Asia/Kolkata`, even after Kolkata lost its status as the most populous or important city of India (there's no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).
+It's not really a saga for Asia/Kolkata (tzinfo). I just wondered why, even to this day, the Indian timezone is recognized by `Asia/Kolkata`. Even after Kolkata lost its status as the most populous or important city of India (there's no official benchmark for the latter, but with a bold claim we can say that if such a title exists it should go to either BOM, BLR, DEL, HYD, or MAA).
 
 And as I looked into it, I found some interesting facts about IST (Full Disclosure: Citation Needed).
 
