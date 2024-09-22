@@ -1,0 +1,2 @@
+$(document).ready(function(){$('table').each(function(){if(document.documentElement.getAttribute("data-theme")=="dark"){$(this).addClass('table-dark');}else{$(this).removeClass('table-dark');}
+if($(this).parents('[class*="news"]').length==0&&$(this).parents('[class*="card"]').length==0&&$(this).parents('code').length==0){$(this).attr('data-toggle','table');$(this).attr('data-classes','table table-sm');$(this).addClass('table-hover');}})});

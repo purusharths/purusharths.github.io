@@ -1,0 +1,16 @@
+{% extends "default.html" %}
+
+{% from "_includes/news.html" import news_display with context %}
+
+{% block content%}
+    <div class="post">
+        <header class="post-header">
+        <h1 class="post-title georgia-font">{{ page.title }}</h1>
+        <p class="post-description georgia-font text-muted"><i>{{ page.summary }}</i></p>
+        </header>
+
+        <article>
+        {{ news_display(limit=false) }}
+        </article>
+    </div>
+{% endblock %}

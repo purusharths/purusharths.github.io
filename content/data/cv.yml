@@ -1,0 +1,166 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Purusharth Saxena
+    - name: Date of Birth
+      value: December 1997
+    - name: Languages
+      value: English (fluent), Hindi (fluent), German (elementary)
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD (Dr. rer. nat.)
+      institution: Universität Heidelberg, Heidelberg, Germany
+      year: 2027 (expected)
+      description:
+        - Optimal Transport
+        - Causal Inference
+        - Single Cell
+    - title: Master of Science (MS)
+      institution: Universität Heidelberg, Heidelberg, Germany
+      year: 2023
+      description:
+        - Numerical Analysis
+        - Partial Differential Equations
+        - Uncertainty Quantification
+    - title: Bachelor of Science (BSc)
+      institution: Christ University, Bangalore, India
+      year: 2019
+      description:
+        - Mathematics
+        - Statistics
+        - Computer Science
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Scholarship
+      institution: Universität Magdeburg, Magdeburg, Germany
+      year: 2024
+      description:
+        - Optimal Experimental Design in Chemical Engineering
+    - title: Wissenschaftliche Hilfskraft
+      institution: Karlsruher Institut für Technologie, Karlsruhe, Germany
+      year: 2024
+      description:
+        - Multi-Index Delayed Acceptance Monte Carlo Method
+    - title: Wissenschaftliche Hilfskraft (Research Assistant)
+      institution: IWR, Universität Heidelberg, Heidelberg, Germany
+      year: 2022 - 2023
+      description:
+        - Modeling and software development for HiFlow3
+    - title: Wissenschaftliche Hilfskraft (Research Assistant)
+      institution: IWR, Universität Heidelberg, Heidelberg, Germany
+      year: 2021 - 2022
+      description:
+        - Modeling and development for HiFlow3
+    - title: Project Technical Assistant
+      institution: Indian Institute of Technology, Bombay, India
+      year: 2019 - 2020
+      description:
+        - Reviewing and editing mathematics lecture notes and visualizations
+        - Created simulations on Control Theory, ODEs, and Linear Algebra under Prof. Sachin Patwardhan (Dept. of Chemical Engineering)
+        - Mentored “Mathematics using Python” interns during FOSSEE Summer Fellowship 2020, funded by the Ministry of Education, Government of India
+    - title: Student Instructor
+      institution: Christ University, Bangalore, India
+      year: 2016 - 2018
+      description:
+        - Instructor for Data Analysis using Python
+        - Led a Summer Workshop on “Data Analysis using Python” (2018)
+    - title: Tutor
+      institution: Universität Heidelberg, Heidelberg, Germany
+      year: 2022
+      description:
+        - Tutor for Numerical Analysis of ODEs
+
+- title: Activity
+  type: time_table
+  contents:
+      - title: (Secretary) SIAM Student Chapter, Heidelberg
+        institute: Society for Industrial and Applied Mathematics (SIAM)
+        year: 2022 - *ongoing*
+        description: 
+              - Organized field trips to Carl Zeiss (Zeiss SMT), ABB, and DWD (Deutsche Wetterdienst)
+              - Organized UM-Bridge workshop on UQ + Modeling
+              - Organizing team and chair for 4EU+ workshop in Prague
+              - Representative of SIAM Student Chapter Heidelberg at SIAM CSE Conference, Amsterdam (2023)
+      - title: (Volunteer) European Conference on Mathematical and Theoretical Biology (ECMTB 2022)
+        institute: ECMTB
+        year: 2022
+        description: 
+              - Volunteer for backend help and technical support
+      - title: Team Heidelbears
+        institute: ISC Student Cluster Competition (2022), Hamburg, Germany
+        year: 2022
+        description: 
+              - Overall winners and Highest LINPACK award
+      - title: (Student Representative) Scientific Computing, Universität Heidelberg
+        institute: Universität Heidelberg
+        year: 2021 - 2022
+        description: 
+              - Represented students from Master of Scientific Computing in the Studienkommission (Examination Committee) for 
+              - Acted as student representative for the Zulassungskommission (Admission Committee) for Master of Scientific Computing
+      - title: (Member) Scientific Computing SIG, Fedora Project
+        institute: Fedora Project
+        year: 2019 - 2020
+        description: 
+              - Fedora Package Manager
+      - title: (Mentor) Google Code-in, Fedora Project
+        institute: Fedora Project
+        year: 2019 - 2020
+        description: 
+              - Mentored students in open-source projects in the last iteration of Google Code-in.
+
+- title: Talks at Conferences
+  type: time_table
+  contents:
+    - title: Speaker and Poster Presentation at PyCon India, Chennai, India
+      year: 2019
+    - title: Organizer for SciPy India, IIT-Bombay, India
+      year: 2019
+    - title: Speaker at PyConf Hyderabad, India
+      year: 2019
+    - title: Speaker at SciPy India, IIT-Bombay, India
+      year: 2018
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: Modeling of MIT Benchmark for heat-driven flow at high Rayleigh numbers
+      year: 2021 - 2022
+    - title: C++ library for LANCHOS and ARNOLDI algorithms
+      year: 2022
+    - title: C++ header only library for generating Gaussian Random Fields
+      year: 2023
+
+  
+
+- title: Workshops Attended
+  type: time_table
+  contents:
+        - title: Indo-German workshop on Computational Mathematics (2023)
+          institute: Indian Institute of Science, Bengaluru, India
+          year: 2023
+        - title: 4EU+ Integrative Think Tank (2022)
+          institute: Universität Heidelberg, Heidelberg, Germany
+          year: 2022
+        - title: Workshop on Geometry and Machine Learning
+          institute: STRUCTURES - Clusters of Excellence
+          year: 2022
+        - title: Summer School in Uncertainty Quantification
+          institute: Universität Augsburg
+          year: 2022
+        - title: Prague 4EU+ Workshop
+          institute: Charles University, Prague, Czech Republic
+          year: 2022
+        - title: Hardware Aware Scientific Computing Summer School
+          institute: IWR & IISc
+          year: 2021
+        - title: 100-Hour Certificate Course in Astronomy and Astrophysics
+          institute: MP Birla Institute of Fundamental Research
+          year: 2018
+          description: 
+            - dissertation on Gravity, Spacetime, and Conformal Symmetry of Spacetime
+
