@@ -6,8 +6,8 @@ title: # the website title (if blank, full name will be used instead)
 first_name: Purusharth 
 middle_name: 
 last_name: Saxena
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-footer_text: Design based on al-folio adapted for Pelican. 
+description: # > # the ">" symbol means to ignore newlines until "footer_text:"
+footer_text: # Design based on al-folio adapted for Pelican. 
 keywords: applied math, mathematical modelling
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
