@@ -6,14 +6,14 @@ save_as: index.html
 subtitle: <a href='mailto:Purusharth.Saxena@iwr.uni-heidelberg.de'>Purusharth.Saxena@iwr.uni-heidelberg.de</a>
 profile: 
   align: right
-  image: images/profile_pictures/dp.jpg
+  image: images/profile_pictures/dp-fol.jpg
   image_circular: false # crops the image to make it circular
   address: >
     
 
 
-latest_posts: true  # includes a list of the newest posts
-news: true  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+news: false  # numerical nuggets. includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 talks: false # includes latest talks
 ---
