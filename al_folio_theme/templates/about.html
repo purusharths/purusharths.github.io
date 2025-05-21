@@ -87,7 +87,7 @@
           <!-- News -->
           {% if page.news and SITE.announcements.enabled -%}
             <hr>
-            <h3><a href="{{ 'news/' | relative_url }}" class="georgia-font">Numerical Nuggets</a></h3>
+            <h3><a href="{{ 'news/' | relative_url }}" class="georgia-font">Geometric Highlights</a></h3>
             {{ news_display(limit=true) }}
           {%- endif %}
 
@@ -101,7 +101,7 @@
           <!-- Latest posts -->
           {% if page.latest_posts and SITE.blog_enabled -%}
             <hr>
-            <h3><a href="{{ 'posts/' | relative_url }}" class="georgia-font">Geometric Highlights</a></h3>
+            <h3><a href="{{ 'posts/' | relative_url }}" class="georgia-font">Numerical Nuggets</a></h3>
             {%- include '_includes/latest_posts.html' %}
           {%- endif %}
 

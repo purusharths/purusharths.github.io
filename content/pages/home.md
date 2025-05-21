@@ -11,8 +11,8 @@ profile:
   address: >
     
 
-latest_posts: false  # includes a list of the newest posts
-news: true  # numerical nuggets. includes a list of news items
+latest_posts: true  # includes a list of the newest posts
+news: false  # numerical nuggets. includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 talks: false # includes latest talks
 ---

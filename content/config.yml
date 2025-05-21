@@ -39,7 +39,7 @@ footer_fixed: true
 # syntax) or the string "divider".
 # enable dropdowns here by uncommenting the dropdowns section
 # dropdowns:
-#   - title: submenus
+#   - title: teaching
 #     nav_order: 7
 #     children:
 #       - "[talks]({filename}/pages/talks.md)"
