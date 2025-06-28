@@ -1,36 +1,46 @@
-# al-folio-pelican
+## Personal Webpage
+## (Workflow with Pelican + Obsidian)
 
-Build an academic website with the stylish look of the popular [al-folio](https://github.com/alshedivat/al-folio) 
-template, but using Python, not Ruby. This is a port of the al-folio template for the Pelican static site generator and the
-Jinja templating engine. All credit to the original authors of this fantastic template!
 
-Want to see what the result looks like? It's almost identical to al-folio, and you can see an active version on
-[my personal website](https://vivek-bharadwaj.com).
+## Setting up Pelican
 
-Building this template has been tested (at a cursory level) on Mac OSX, Windows, and Linux.
+1. Enable venv and install dependencies with `requirements.txt`
 
-### Getting started locally
-1. Click "Use this template" at the top of the Github page to create a repository with
-   a fresh copy of the template and a blank history.
-2. Clone the new repository to your computer and `cd` into it.
-```
-git clone <repo_name>
-cd <repo_name>
-```
-3. Install dependencies via `pip`. For interactive local development, also install `invoke`:
+2. Install dependencies via `pip`. For interactive local development, also install `invoke`:
 ```
 pip install -r requirements.txt
 pip install invoke
 ```
-4. Build the website:
+3. Build the website:
 ```
 python -m invoke livereload
 ```
 This command will compile the site and open a browser window that dynamically updates as you edit
 the content of your website.
-5. Edit the content of your website. You can change `config.yml`, the contents of each page in the `pages` 
+
+4. Edit the content of your website. You can change `config.yml`, the contents of each page in the `pages` 
 directory, blog posts in the `articles` directory, and add your list of publications in
 `pages/publications.bib`.
+
+5. To set up new post run `new_post.py`
+6. To push changes run `push_changes.sh`. A github action takes over after the files are pushed (as shown below in `Using GitHub Actions`)
+
+7. Using Makefile
+```
+make regenerate (to regenerate html outputs)
+make serve (same as 3.)
+make clean (clean html output)
+```
+
+
+## Setting up Obsidian 
+1. Open `content` folder as vault.
+2. Disable `Use [[Wikilinks]]`
+3. In settings set up `default location for new attachments` as `In subfolder under current folder`.
+Put subfolder name as `images`
+
+Note: After adding any image, it would be required to append `images/` to the image path.
+
 
 #### Debugging
 Got a cryptic error message? Try running
@@ -39,8 +49,53 @@ python -m pelican --debug
 ```
 which will build the website and prints log messages and a detailed stack trace for errors.
 
-### Deploying to Github Pages
-Coming soon...
+### Using Github Actions
+
+```yml
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: 'output'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
 
 
 
