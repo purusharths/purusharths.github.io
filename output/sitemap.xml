@@ -6,35 +6,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/contact/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/cv/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/news/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/posts/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -131,7 +131,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/posts/2025/seminar-on-causal-inference/</loc>
+<loc>/posts/2025/gravel-routes-near-heidelberg/</loc>
+<lastmod>2025-06-28T00:00:00-07:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+
+<url>
+<loc>/posts/2025/lecture-in-optimal-transport/</loc>
+<lastmod>2025-02-01T00:00:00-08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+
+<url>
+<loc>/posts/2025/upcoming-seminar-on-causality/</loc>
 <lastmod>2025-06-28T00:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
@@ -139,70 +153,70 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/projects/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/1_project/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/2_project/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/3_project/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/4_project/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/5_project/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/6_project/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/publications/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/talks/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/teaching/</loc>
-<lastmod>2025-06-28T04:01:35-00:00</lastmod>
+<lastmod>2025-06-28T15:43:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
