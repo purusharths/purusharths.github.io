@@ -1683,14 +1683,13 @@ This can be done for both function and class templates by using using <code>expl
 </code></pre></div>
 
 <p>Usecase: 
-1. reduce compile time (Say if we know that Stack<int> will be used a lot we can instantiate in one translation unit and then refer to it with extern in others). The linker will pick it up as a normal external variable.
-    ```cpp 
-    #include "Stack.h"</p>
-<div class="highlight"><pre><span></span><code>extern template class Stack&lt;int&gt;
-void func(){
-    Stack&lt;int&gt; s(10);
-}
-```
+1. reduce compile time (Say if we know that Stack<int> will be used a lot we can instantiate in one translation unit and then refer to it with extern in others). The linker will pick it up as a normal external variable.</p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;Stack.h&quot;</span>
+
+<span class="w">    </span><span class="k">extern</span><span class="w"> </span><span class="k">template</span><span class="w"> </span><span class="k">class</span><span class="w"> </span><span class="nc">Stack</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span>
+<span class="w">    </span><span class="kt">void</span><span class="w"> </span><span class="n">func</span><span class="p">(){</span>
+<span class="w">        </span><span class="n">Stack</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span><span class="w"> </span><span class="n">s</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
 </code></pre></div>
 
 <ol>
@@ -2691,14 +2690,14 @@ for (const auto&amp; i : {1,2,3,4,5,6}){
 <div class="desktop">
     <footer class="fixed-bottom">
       <div class="container mt-0">
-                &copy; Copyright 2025 Purusharth  Saxena. &nbsp;Last updated: May 21, 2025.
+                &copy; Copyright 2025 Purusharth  Saxena. &nbsp;Last updated: June 28, 2025.
       </div>
     </footer></div>
 
 <div class="mobile">
     <footer class="sticky-bottom mt-5">
       <div class="container mt-0">
-                &copy; Copyright 2025 Purusharth  Saxena. &nbsp;Last updated: May 21, 2025.
+                &copy; Copyright 2025 Purusharth  Saxena. &nbsp;Last updated: June 28, 2025.
       </div>
     </footer>
 </div>
