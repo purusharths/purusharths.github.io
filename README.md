@@ -49,7 +49,7 @@ python -m pelican --debug
 ```
 which will build the website and prints log messages and a detailed stack trace for errors.
 
-### Using Github Actions
+## Using Github Actions
 
 ```yml
 # Simple workflow for deploying static content to GitHub Pages
