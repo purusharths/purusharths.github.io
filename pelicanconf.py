@@ -35,6 +35,8 @@ TIMEZONE = 'America/Ensenada'
 
 DEFAULT_LANG = 'en'
 
+RELATIVE_URL = True
+
 ARTICLE_URL = 'posts/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{slug}/index.html'
 
@@ -83,7 +85,7 @@ PATH_METADATA = '(?P<path_no_ext>.*)\..*'
 PAGE_URL = '{path_no_ext}/'
 PAGE_SAVE_AS = '{path_no_ext}/index.html'
 
-STATIC_PATHS = ['images', 'pdf', 'json']
+STATIC_PATHS = ['images', 'pdf', 'json', 'posts']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
