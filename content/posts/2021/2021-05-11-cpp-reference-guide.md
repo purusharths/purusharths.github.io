@@ -1520,14 +1520,14 @@ template void Stack<double>::pop();
 
 Usecase: 
 1. reduce compile time (Say if we know that Stack<int> will be used a lot we can instantiate in one translation unit and then refer to it with extern in others). The linker will pick it up as a normal external variable.
-    ```cpp 
-    #include "Stack.h"
+```cpp
+#include "Stack.h"
 
     extern template class Stack<int>
     void func(){
         Stack<int> s(10);
     }
-    ```
+```
 2. Creating library using template types. The template definition that hasn't been instantiated at all will not be included in the final build. By using explicit instantiation we can make sure that they will be includede.
 
 
