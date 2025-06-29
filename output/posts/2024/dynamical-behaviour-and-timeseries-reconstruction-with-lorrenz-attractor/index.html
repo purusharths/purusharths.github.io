@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <!-- Head -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dynamical behaviour and timeseries reconstruction with Lorrenz Attractor | Purusharth Saxena</title>
+    <meta name="author" content="Purusharth Saxena">
+    <meta name="description" content="None">    <meta name="keywords" content="applied math, mathematical modelling">
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.css">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+
+    <!-- Styles -->
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+
+    <link rel="stylesheet" href="/theme/css/main.css?dd902126">
+    <link rel="canonical" href="/posts/2024/dynamical-behaviour-and-timeseries-reconstruction-with-lorrenz-attractor/">
+
+    <!-- Dark Mode -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="screen" id="highlight_theme_dark">
+
+    <script src="/theme/assets/js/dark_mode_packed.js?bb014f0d"></script>
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <div class="desktop">
+<a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Purusharth&nbsp;</span>Saxena</a>
+
+          </div>
+          <div class="mobile">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Purusharth&nbsp;</span>Saxena</a>
+
+          </div>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+
+              <!---->
+
+              <!-- About -->
+              <li class="nav-item ">
+                <!--<a class="nav-link" href="/">about--></a>
+              </li>
+              <!-- Blog -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/posts/">Blog<span class="sr-only">(current)</span></a>
+              </li>
+              <!-- Other pages -->              <li class="nav-item ">
+                <a class="nav-link" href="/contact/">Contact</a>
+              </li>
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>    </header>
+    <!-- Content -->
+    <div class="container mt-5">
+       
+<!-- _layouts/post.html -->
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Dynamical behaviour and timeseries reconstruction with Lorrenz Attractor</h1>
+    <p class="post-meta">June 11, 2024&nbsp; &middot; &nbsp;Purusharth  Saxena</p>
+    <p class="post-tags">
+      <a href="/blog/2024"> <i class="fas fa-calendar fa-sm"></i> 2024 </a>      &nbsp; &middot; &nbsp;
+<a href="/posts/tag/python/">
+          <i class="fas fa-hashtag fa-sm"></i> python</a> &nbsp;
+<a href="/posts/tag/dynamical-system/">
+          <i class="fas fa-hashtag fa-sm"></i> dynamical-system</a> &nbsp;
+<a href="/posts/tag/timeseries/">
+          <i class="fas fa-hashtag fa-sm"></i> timeseries</a> &nbsp;
+<a href="/posts/tag/chaotic-system/">
+          <i class="fas fa-hashtag fa-sm"></i> chaotic-system</a> &nbsp;
+<a href="/posts/tag/neural-odes/">
+          <i class="fas fa-hashtag fa-sm"></i> neural-odes</a> &nbsp;
+<a href="/posts/tag/echo-state-networks/">
+          <i class="fas fa-hashtag fa-sm"></i> echo-state-networks</a> &nbsp;
+      &nbsp; &middot; &nbsp;
+      <a href="/posts/category/2024/">
+        <i class="fas fa-tag fa-sm"></i> 2024</a> &nbsp;
+
+    </p>
+  </header>
+
+  <article class="post-content">
+    <div id="markdown-content">
+      <h1 id="neural-ordinary-differential-equations-neural-odes">Neural Ordinary Differential Equations (Neural ODEs)</h1>
+<p>Neural dODEs combine ordinary differential equations (ODEs) and neural networks. These are relatively simple and a seemingly obvious choice for systems governed by a set of differential equations. Rather than discretizing time into fixed intervals as in conventional RNN, the network's hidden states evolve continuously over time. These continuous-time dynamics are governed by an ordinary differential equation, which describes how the hidden states change as a function of time and the current state.</p>
+<p>There can be two lines of thought for understanding Neural ODEs (NODEs): NN trained with a numerical ODE solver or "numerical method" that happened to use a neural net to approximate a system of differential equations. </p>
+<p>In a traditional numerical setting, to solve an IVP or Initial Value Problem, we need an initial condition $y_0$, a time-stepping scheme ($h$), and the derivative $\frac{d}{dt}$. In the case of NODEs, the neural network represents the derivative $\frac{d}{dt}$; the initial value is the input. Hence, we can model the system using a neural network (as a governing ODE) and solve it using pre-existing ODE solvers. The main challenge here is to be able to take derivatives of functions of an ODE solver with respect to neural network parameters. This is where the adjoint sensitivity method comes in, where a differential equation is solved to obtain the gradients of the loss function. </p>
+<h3 id="implementation-for-loren63-lorenz96-systems">Implementation for Loren63 &amp; Lorenz96 systems</h3>
+<p>•⁠  ⁠Reconstructions and Loss v Epoch Plots for Lorenz63 system</p>
+<table><tr>
+<td> <img src="figures/loss_l63_node.png" alt="Drawing" style="width: 450px;"/> </td>
+<td> <img src="figures/node_l63_comparision.png" alt="Drawing" style="width: 450px;"/> </td>
+</tr></table>
+
+<center><img src="figures/node_l63_3d.png" alt="Drawing" style="width: 650px;"/> </center>
+
+<p>•⁠  ⁠Reconstructions and Loss v Epoch Plots for Lorenz96 system</p>
+<table><tr>
+<td> <img src="figures/node_l96_loss.png" alt="Drawing" style="width: 450px;"/> </td>
+<td> <img src="figures/node_l96_comparision.png" alt="Drawing" style="width: 450px;"/> </td>
+</tr></table>
+
+<center><img src="figures/specific_triplets_3d.png" alt="Drawing" style="width: 9500px;"/> </center>
+
+<p>Note: exploration of hyperparameter configurations was a bit limited by computational resources, and the model could not run for a very long time, but even with these limited iterations, we see good reconstructions and a rapidly converging loss function for L63. The difference between a very high dimensional model like lorenz96 and a lower dimensional model like Lorenz 63 can be seen from the Loss vs. epoch plots. While the L63 model converges rapidly, L96 exhibits a slow but steady convergence. The could learn more as the loss curve hasn't plateaued yet.</p>
+<p>While there might be some even more interesting setups out there, it was not possible to try out more experiments (Google Colab, which was used for some experiments, was also exhausted).</p>
+<p>Pros:
+NODEs are good at modeling continuous-time dynamics. 
+Parameter Efficiency: Requires fewer parameters than traditional neural networks in general, making them more memory-efficient.
+Adaptive: Timestepping schemes are chosen adaptively by the underlying numerical ODE solvers. 
+(In the ⁠<code>torchdiffeq</code> ⁠ package, <code>⁠odeint</code> ⁠ acts as the layer for building deep models)</p>
+<p>Cons:
+Can model the continuous dynamics well but might be computationally intensive.
+It is challenging to train in comparison to other models made for such purposes (see ESN). 
+Solving ODEs numerically is an expensive task, and there is a chance that the model will not converge if an incoherent ODE solver is chosen.
+High sensitivity to hyperparameters, which makes it difficult to narrow into the most efficient set of the same for a given model.</p>
+<hr>
+
+<h1 id="echo-state-networks-esns">Echo State Networks (ESNs)</h1>
+<p>ESNs belong to a class Reservoir Computing. Here a fixed, randomly initialized dynamical system, called a reservoir, is used to process the input data and generates the output predictions based on the non-linear dynamics. It can also be thought of as a different way of training Recurrent Neural Networks (RNN) by not training the hidden connections at all, instead just fix them randomly. The model would then learn the timeseries by just training how these hidden connections affect the outputs. In this case the hidden to h</p>
+<center><img src="figures/esn_illustration.jpg" width=400px></center>
+
+<p>This means only the output layer is learned, i.e., ESN gives a linear model (from reservoir to output). This is done in a way such that the biggest eigenvalue of the reserviour is ~1, i.e spectral radius of the weight matrix is ~1; which is trivial for a linear system. For non-linear systems, the reservoir's recurrent connections are set in such a way that the input can "echo" or reverberate within the reservoir states. Hence, captures the non-linear dynamics because of the non-linear transformations in the reservoir.</p>
+<p>Even though there is some sensitivity to the hyperparameters, learning is very fast which allows for a more involved fine tuning. </p>
+<p>Let 
+if $u = (x,y,z)$, and the ODE is given by $y_k = u_{k+1} \forall k=1...T$ in $\mathbb{R}^{T \times 3 }$
+consider $u \subset U \in \mathbb{R}^{T\times 3}$ be input and $y \subset Y\in \mathbb{R}^{T\times 3}$ be the output, then the evolution of the state is given by 
+$x_k = \tanh(Wx_{k-1}+W_{in}u_k)$ where $W$ and $W_{in}$ are weight and input weight matrices respectively. $W_{out}$ is the output weight matrix given by $W_{out} = Y^{T}(X^{T})^{\dagger}$ then the next step is given by:
+$$x_{k} = \tanh(Wx_{k-1}+W_{in}y_{k-1}); \quad y_k = W_{out} x_k$$</p>
+<p>such that $(X^{T})^{\dagger}$ is the pseudoinverse of X transpose.</p>
+<p>As shown here, training an ESN involves optimizing only the weights of the output layer, typically using simple linear regression techniques. More efficient optimization algorithms can also be used. This decoupling of the reservoir dynamics from the learning process greatly simplifies training, making ESNs efficient and scalable.</p>
+<h3 id="implemntation-for-loren63-lorenz96-systems">Implemntation for Loren63 &amp; Lorenz96 systems</h3>
+<p>•⁠  ⁠Lorenz 63 Regeneration</p>
+<center><img src="figures/esn_lorenz63_comparision.png" alt="Drawing" style="width: 9500px;"/> </center>
+
+<center><img src="figures/esn_lorenz63_attractor3d.png" alt="Drawing" style="width: 500px;"/> </center>
+<p>In the case of Lorenz63, ESN provices good predictions (owing to their capability to handle chaotic systems). In addition to that, their simplicity makes them quite attractive.</p>
+<p>•⁠  ⁠Lorenz 96 Regeneration</p>
+<center><img src="figures/esn_lorenz96_comparision.png" alt="Drawing" style="width: 9500px;"/> </center>
+
+<center><img src="figures/esn_specific_triplets_3d.png" alt="Drawing" style="width: 900px;"/> </center>
+
+<p>In the case of L96, even though we get very good regeneration (comparatively), it also hints that ESN might struggle with the higher dimensionality and complex interactions within the system, which could be assuaged by extensive hyperparameter tuning. Leaky rate and Spectral Radius are two important parameters. The leaky rate was chosen to be between 0.7, which means that 70% of the new state is influenced by the current input and the existing reservoir state, while 30% is retained from the previous state.</p>
+<p>ESN are extremely fast compared to Neural ODEs and transformers, giving better reconstructions for this particular example. This leads to an empirical conclusion/observation that these might be the best models for such time series input. This configuration, along with the spectral radius of 0.9, would indicate that it can model temporal dependencies effectively without becoming too sensitive to noise or being unstable.</p>
+<p>Pros:
+It is relatively simple to implement and does not require backpropagation through time as only the output layer is trained. Fast learning. 
+Computationally efficient since the reservoir (hidden layer) is fixed and not trained.
+Effective in predicting chaotic time series due to their reservoir dynamics.<br>
+Cons:
+Might face challenges with high-dimensional state spaces
+The fixed nature of the reservoir might limit the flexibility and adaptability of the model to different types of time series data; For example, high dimensional video or preprocessed speech input.
+Might struggle with large datasets or complex systems compared to other deep learning approaches (see transformers).
+At the same time, it is possible to combine RNN with ESN, i.e initilize RNN with ESN.</p>
+<hr>
+
+<h1 id="transformers">Transformers</h1>
+<p>Deep learning encoder-decoder architecture along with a mechanism called "self-attention". This allows them to weigh the important parts of the sequence while making predictions. Typically used for Natural Language Processing tasks like LLM.</p>
+<center><img src="figures/transformer_illustration.jpeg" width=400px/></center>
+<p><br>
+In this figure, input is on the bottom part, whereas output is on the top. Instead of words, the input comes from timeseries which is the same as embedding and classification (with words there is just the additional step to project words into vector space and then the generated vectors back to text via embeddings).</p>
+<table><tr>
+<td> <img src="figures/l63_transformer.png" alt="Drawing" style="width: 350px;"/> </td>
+<td> <img src="figures/l96_transformers.png" alt="Drawing" style="width: 350px;"/> </td>
+    <td> <img src="figures/Transformer_bloop_96.png" alt="Drawing" style="width: 350px;"/> </td>
+</tr></table>
+
+<p>However, transformers might not be the best bet for time series predictions as shown in various publications mentioned in [*]. Despite this there are some advantages of using transformers -- especially if the data is high dimensional with dependencies. For this example of Lorenz63 and Lorenz96, the regeneration did not happen, even though the error seemingly converged in the case of Lorenz96. The generated time series prediction bifurcated after a point (Rightmost image). </p>
+<p>A hypothesis for why the relative performance of Lorenz96 was slightly better could be due to the fact that it was a high dimensional data -- something that suits well for transformers.</p>
+<p>Pros:
+Transformers can handle long-range dependencies in time series data efficiently (due to their self-attention mechanism).</p>
+<p>Cons:
+Might be an overkill for time series. In case of Lorenz 96 they be advantageous for capturing complex, high-dimensional dependencies, but require careful tuning and significant resources.
+Apart from what is mentioned in [*], we saw that the trasnformers are very resource intesive and need large amount of data. Moreover, implementing a transformers model is a complex with a lot of moving parts that needs to be fine-tuned which adds up to the complexity of the model.</p>
+<p>[*] https://github.com/valeman/Transformers_Are_What_You_Dont_Need</p>
+<hr>
+
+<p>Adam optimizer, used in Neural ODEs and transformers offers adaptive learning rates for each parameter, efficiently combines momentum and RMSprop techniques, and is robust to noisy or sparse gradients, resulting in faster convergence and better performance in training neural networks</p>
+<h3 id="lorenz-63">Lorenz 63</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Neural ODEs</th>
+<th>ESN</th>
+<th>Transformers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Power Spectrum Error</td>
+<td>0.139</td>
+<td>0.0663</td>
+<td>0.187</td>
+</tr>
+<tr>
+<td>KL Divergence</td>
+<td>0.346</td>
+<td>0.0356</td>
+<td>10.834</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="lorenz-96">Lorenz 96</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Neural ODEs</th>
+<th>ESN</th>
+<th>Transformers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Power Spectrum Error</td>
+<td>0.0876</td>
+<td>0.0773</td>
+<td>0.317</td>
+</tr>
+<tr>
+<td>KL Divergence</td>
+<td>0.265</td>
+<td>0.012</td>
+<td>3.550</td>
+</tr>
+</tbody>
+</table>
+    </div>
+  </article>
+</div>
+
+
+    </div>
+
+    <!-- Footer -->
+<div class="desktop">
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+                &copy; Copyright 2025 Purusharth  Saxena. &nbsp;Last updated: June 29, 2025.
+      </div>
+    </footer></div>
+
+<div class="mobile">
+    <footer class="sticky-bottom mt-5">
+      <div class="container mt-0">
+                &copy; Copyright 2025 Purusharth  Saxena. &nbsp;Last updated: June 29, 2025.
+      </div>
+    </footer>
+</div>
+    <!-- JavaScripts -->
+<!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script><!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/theme/assets/js/masonry.js" ></script>  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/theme/assets/js/zoom.js"></script>
+  <!-- Bootstrap Table -->
+  <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
+
+  <!-- Load Common JS -->
+  <script src="/theme/assets/js/no_defer_min.js?9e722202"></script>
+  <script defer src="/theme/assets/js/common_min.js?d4f27d0b"></script>
+  <script defer src="/theme/assets/js/copy_code_min.js?473a20b6"></script>
+  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>  <script async src="https://badge.dimensions.ai/badge.js"></script><!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+<!-- Scrolling Progress Bar -->
+<script>
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+  </body>
+</html>

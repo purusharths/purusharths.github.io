@@ -6,35 +6,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/contact/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/cv/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/news/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/posts/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -124,8 +124,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/posts/2024/dynamical-behaviour-and-timeseries-reconstruction-lorrenz-attractor/</loc>
+<loc>/posts/2024/dynamical-behaviour-and-timeseries-reconstruction-with-lorrenz-attractor/</loc>
 <lastmod>2024-06-11T00:00:00-07:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+
+<url>
+<loc>/posts/2025/fokker-plank-and-pinns/</loc>
+<lastmod>2025-06-29T00:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.3</priority>
 </url>
@@ -145,6 +152,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>/posts/2025/some-remarks-on-optimal-transportation/</loc>
+<lastmod>2025-05-10T00:00:00-07:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+
+<url>
+<loc>/posts/2025/trajectory-infernce-with-optimal-transport/</loc>
+<lastmod>2025-06-29T00:00:00-07:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+
+<url>
 <loc>/posts/2025/upcoming-seminar-on-causality/</loc>
 <lastmod>2025-06-28T00:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -153,70 +174,70 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/projects/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/1_project/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/2_project/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/3_project/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/4_project/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/5_project/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/projects/6_project/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/publications/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/talks/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
 <loc>/teaching/</loc>
-<lastmod>2025-06-28T15:43:46-00:00</lastmod>
+<lastmod>2025-06-29T16:25:17-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
